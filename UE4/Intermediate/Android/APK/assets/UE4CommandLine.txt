@@ -1,0 +1,1 @@
+../../../BasilicaSudak_UE4/BasilicaSudak_UE4.uproject  /Game/ChirschScene -Messaging -SessionId=1B5025EF08D62BB0DC0A2CA0428B651A -SessionOwner="scad" -SessionName="Launch On Device" -iterative

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600mm"
+   height="600mm"
+   viewBox="0 0 600 600"
+   version="1.1"
+   id="svg821"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="help_window.svg"
+   inkscape:export-filename="/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/help_window.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs815">
+    <linearGradient
+       id="linearGradient1372"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#00000f;stop-opacity:1;"
+         offset="0"
+         id="stop1370" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35277778"
+     inkscape:cx="1133.8583"
+     inkscape:cy="1247.2441"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="988"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1366" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata818">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,303)">
+    <rect
+       style="opacity:1;fill:#00000f;fill-opacity:0.51028807;fill-rule:nonzero;stroke:#323232;stroke-width:3.13933921;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1368"
+       width="515.98419"
+       height="285.6026"
+       x="49.068996"
+       y="-276.45081"
+       ry="23.86659"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2848"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.88976371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,34.5,-310.33751)"><flowRegion
+         id="flowRegion2850"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:1.88976371;stroke-miterlimit:4;stroke-dasharray:none"><rect
+           id="rect2852"
+           width="1810.3934"
+           height="2003.1497"
+           x="120.94489"
+           y="154.96066"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:1.88976371;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.33333588px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.88976371;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara2973" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2910"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(34.5,194.25)"><flowRegion
+         id="flowRegion2912"><rect
+           id="rect2914"
+           width="846.6142"
+           height="60.472443"
+           x="661.4173"
+           y="219.21262" /></flowRegion><flowPara
+         id="flowPara2916" /></flowRoot>    <rect
+       style="opacity:1;fill:#00000f;fill-opacity:0.5098038;fill-rule:nonzero;stroke:#323232;stroke-width:3;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect2922"
+       width="517.24811"
+       height="78.761124"
+       x="48.127228"
+       y="22.113768"
+       ry="18.388947"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3164"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.12587583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.27072772,0,0,0.26225802,48.159461,-297.43495)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3166"
+         style="stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none"><rect
+           id="rect3168"
+           width="1785.955"
+           height="1534.4293"
+           x="54.755516"
+           y="121.76727"
+           style="stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+         id="flowPara3206"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Подсказки по управлению:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3414" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3416">Мышь - Взгляд, направление движения</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3418">Пробел -  Подпрыгнуть на месте</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3420">W - Идти вперед</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3422">S - Пятиться назад</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3424">A - Шаг влево</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3426">D - Шаг вправо</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3428">F1 - Эта справка</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.73258209px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3448">Esc - Выйти из программы</flowPara><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3430" /><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3432" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3436">Авторы:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3438">Карнаушенко Э.Н. - Модели, Текстуры</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3440">Карнаушенко А.Д. - Окружение, Программирование</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3442" /><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3444" /><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.54943466px;line-height:125.99999905%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1;stroke:#000000;stroke-width:1.12587583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3446">Blender Game Engine 2.79</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:#00000f;fill-opacity:0.5098038;fill-rule:nonzero;stroke:#323232;stroke-width:3;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect2922-6"
+       width="517.43542"
+       height="45.219189"
+       x="48.279835"
+       y="100.49852"
+       ry="17.241003"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

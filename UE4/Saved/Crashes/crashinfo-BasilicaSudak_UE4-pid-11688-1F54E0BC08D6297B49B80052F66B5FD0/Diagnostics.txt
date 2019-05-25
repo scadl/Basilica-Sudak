@@ -1,0 +1,34 @@
+Generating report for minidump
+
+Application version 4.20.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-36-generic (network name: MicrolabHS)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000010000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Landscape.so!FLandscapeComponentSceneProxy::GetDynamicMeshElements(TArray<FSceneView const*, FDefaultAllocator> const&, FSceneViewFamily const&, unsigned int, FMeshElementCollector&) const [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/UnrealTemplate.h:0]
+libUE4Editor-Renderer.so!FSceneRenderer::GatherDynamicMeshElements(TArray<FViewInfo, FDefaultAllocator>&, FScene const*, FSceneViewFamily const&, TArray<unsigned char, TMemStackAllocator<0u> > const&, TArray<unsigned char, TMemStackAllocator<0u> > const&, TArray<unsigned char, TMemStackAllocator<0u> > const&, FMeshElementCollector&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneVisibility.cpp:2312]
+libUE4Editor-Renderer.so!FSceneRenderer::ComputeViewVisibility(FRHICommandListImmediate&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneVisibility.cpp:3071]
+libUE4Editor-Renderer.so!FDeferredShadingSceneRenderer::InitViews(FRHICommandListImmediate&, FILCUpdatePrimTaskData&, TArray<TRefCountPtr<FGraphEvent>, TInlineAllocator<4u, FDefaultAllocator> >&, TArray<TRefCountPtr<FGraphEvent>, TInlineAllocator<4u, FDefaultAllocator> >&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneVisibility.cpp:3322]
+libUE4Editor-Renderer.so!FDeferredShadingSceneRenderer::Render(FRHICommandListImmediate&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp:571]
+libUE4Editor-Renderer.so!RenderViewFamily_RenderThread(FRHICommandListImmediate&, FSceneRenderer*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneRendering.cpp:2850]
+libUE4Editor-Renderer.so!TGraphTask<FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::EURCMacro_FDrawSceneCommand>::ExecuteTask(TArray<FBaseGraphTask*, FDefaultAllocator>&, ENamedThreads::Type) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneRendering.cpp:3078]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:498]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:573]
+libUE4Editor-RenderCore.so!RenderingThreadMain(FEvent*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:332]
+libUE4Editor-RenderCore.so!FRenderingThread::Run() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:484]
+libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:177]
+libpthread.so.0!UnknownFunction(0x76da)
+libc.so.6!clone(+0x3e)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,0 +1,42 @@
+Generating report for minidump
+
+Application version 4.20.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-34-generic (network name: MicrolabHS)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:391]
+libUE4Editor-ApplicationCore.so!FUnixErrorOutputDevice::Serialize(wchar_t const*, ELogVerbosity::Type, FName const&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Unix/UnixErrorOutputDevice.cpp:57]
+libUE4Editor-Core.so!FOutputDevice::LogfImpl(wchar_t const*, ...) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:70]
+libUE4Editor-Core.so!FDebug::AssertFailed(char const*, char const*, int, wchar_t const*, ...) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/OutputDevice.h:216]
+libUE4Editor-RenderCore.so!FRenderResource::ReleaseResource() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderResource.cpp:50]
+libUE4Editor-RenderCore.so!FDynamicVertexBufferPool::~FDynamicVertexBufferPool() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderResource.cpp:385]
+libUE4Editor-RenderCore.so!FGlobalDynamicVertexBuffer::~FGlobalDynamicVertexBuffer() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderResource.cpp:398]
+libc.so.6!UnknownFunction(0x43040)
+libc.so.6!exit(+0x19)
+libX11.so.6!_XDefaultError(+0x27)
+libX11.so.6!_XError(+0x119)
+libX11.so.6!UnknownFunction(0x3d7ea)
+libX11.so.6!_XReply(+0x3e3)
+libX11.so.6!XTranslateCoordinates(+0x8a)
+libUE4Editor-ApplicationCore.so!X11_DispatchEvent()
+libUE4Editor-ApplicationCore.so!X11_PumpEvents()
+libUE4Editor-ApplicationCore.so!SDL_PollEvent_REAL()
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:422]
+UE4Editor!FEngineLoop::Tick() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3417]
+UE4Editor!GuardedMain(wchar_t const*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:62]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:245]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Linux-0002E32608D613EBB897A1D0A9287FD5_0001</CrashGUID>
+<ProcessId>29397</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>true</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>0</SecondsSinceStart>
+<GameName>UE4-BasilicaSudak_UE4</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Linux</PlatformName>
+<PlatformNameIni>Linux</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.20.0-0+++UE4+Release-4.20</EngineVersion>
+<CommandLine> &quot;../../../../../../../../home/scad/DesktopPLS/System/!Disk E/!Works/[3D Modeling]/BasilcaSudak/BasilicaSudak_UE4/BasilicaSudak_UE4.uproject&quot; /Game/NewMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName=&quot;Play in Standalone Game&quot; -windowed</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en_US</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.20-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Binaries/Linux/</BaseDir>
+<RootDir>/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/</RootDir>
+<MachineId>00028E8E0A051106002A01D88EE34D09</MachineId>
+<LoginId>00028e8e0a051106002a01d88ee34d09</LoginId>
+<EpicAccountId></EpicAccountId>
+<CallStack></CallStack>
+<PCallStack>
+libUE4Editor-Core               0x00000000f4853000 + 4e49af  
+libUE4Editor-Core               0x00000000f4853000 + 466a15  
+libUE4Editor-CoreUObject        0x00000000f3f81000 + 396a09  
+libUE4Editor-CoreUObject        0x00000000f3f81000 + 4d8dae  
+libUE4Editor-CoreUObject        0x00000000f3f81000 + 4d86c4  
+libUE4Editor-CoreUObject        0x00000000f3f81000 + 2675ea  
+libUE4Editor-CoreUObject        0x00000000f3f81000 + 26732f  
+libUE4Editor-CoreUObject        0x00000000f3f81000 + 4d860b  
+libUE4Editor-CoreUObject        0x00000000f3f81000 + 4d1fe3  
+libUE4Editor-Engine             0x00000000ef8b6000 + 1fa425c 
+libUE4Editor-Engine             0x00000000ef8b6000 + 1fa1711 
+libUE4Editor-Engine             0x00000000ef8b6000 + 1fa0b23 
+libUE4Editor-Engine             0x00000000ef8b6000 + 2aae487 
+libUE4Editor-Engine             0x00000000ef8b6000 + 1ebfb4b 
+libUE4Editor-Engine             0x00000000ef8b6000 + 1ebef5e 
+libUE4Editor-Engine             0x00000000ef8b6000 + 1ebd685 
+libUE4Editor-Engine             0x00000000ef8b6000 + 2b2b79b 
+UE4Editor                       0x0000000000200000 + 43809   
+UE4Editor                       0x0000000000200000 + 43ef4   
+libUE4Editor-UnixCommonStartup  0x00000000ffffffff + ffffffff
+libc.so                         0x00000000e9562000 + 21b97   
+UE4Editor                       0x0000000000200000 + 30029   
+</PCallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Assertion failed: ConfigClass-&gt;PropertyLink != nullptr || (ConfigClass-&gt;GetSuperStruct() &amp;&amp; ConfigClass-&gt;PropertiesSize == ConfigClass-&gt;GetSuperStruct()-&gt;PropertiesSize) || ConfigClass-&gt;PropertiesSize == 0 [File:/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp] [Line: 1893] 
+class TextureLODSettings has uninitialized properties. Accessed too early?
+0x00007efcf4cca6fc libUE4Editor-Core.so!FDebug::LogAssertFailedMessageImpl(char const*, char const*, int, wchar_t const*, ...) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:233]
+0x00007efcf4317988 libUE4Editor-CoreUObject.so!UObject::LoadConfig(UClass*, wchar_t const*, unsigned int, UProperty*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h:54]
+0x00007efcf4459dae libUE4Editor-CoreUObject.so!FObjectInitializer::PostConstructInit() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2812]
+0x00007efcf44596c4 libUE4Editor-CoreUObject.so!FObjectInitializer::~FObjectInitializer() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2695]
+0x00007efcf41e85ea libUE4Editor-CoreUObject.so!UClass::CreateDefaultObject() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/Class.cpp:2902]
+0x00007efcf41e832f libUE4Editor-CoreUObject.so!UClass::CreateDefaultObject() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:2371]
+0x00007efcf445960b libUE4Editor-CoreUObject.so!FObjectInitializer::~FObjectInitializer() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:2371]
+0x00007efcf4452fe3 libUE4Editor-CoreUObject.so!StaticConstructObject_Internal(UClass*, UObject*, FName, EObjectFlags, EInternalObjectFlags, UObject*, bool, FObjectInstancingGraph*, bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:3156]
+0x00007efcf185a25c libUE4Editor-Engine.so!UDeviceProfileManager::CreateProfile(FString const&amp;, FString const&amp;, FString const&amp;, wchar_t const*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h:1174]
+0x00007efcf1857711 libUE4Editor-Engine.so!UDeviceProfileManager::LoadProfiles() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Engine/Private/DeviceProfiles/DeviceProfileManager.cpp:420]
+0x00007efcf1856b23 libUE4Editor-Engine.so!UDeviceProfileManager::Get(bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Engine/Private/DeviceProfiles/DeviceProfileManager.cpp:50]
+0x00007efcf2364487 libUE4Editor-Engine.so!FStreamingManagerTexture::FStreamingManagerTexture() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Streaming/StreamingManagerTexture.cpp:101]
+0x00007efcf1775b4b libUE4Editor-Engine.so!FStreamingManagerCollection::AddOrRemoveTextureStreamingManagerIfNeeded(bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:1066]
+0x00007efcf1774f5e libUE4Editor-Engine.so!FStreamingManagerCollection::FStreamingManagerCollection() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:672]
+0x00007efcf1773685 libUE4Editor-Engine.so!FlushResourceStreaming() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:296]
+0x00007efcf23e179b libUE4Editor-Engine.so!UTexture2D::CancelPendingTextureStreaming() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Texture2D.cpp:444]
+0x0000000000243809 UE4Editor!FEngineLoop::Exit() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Launch</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>2</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>GenericGPUBrand</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>GenericOSVersionLabel</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>GenericOSSubVersionLabel</Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>16781996032</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>5099220992</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>4728102912</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>5099220992</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>573575168</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>582778880</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>5275541504</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>5300465664</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+</PlatformProperties>
+</FGenericCrashContext>
