@@ -1,0 +1,1452 @@
+﻿Log file open, 10/03/18 21:46:47
+LogInit: Display: Running engine for game: BasilicaSudak_UE4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.072468
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +4:00, Platform Override: ''
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogStreaming: Display: Took  0.770s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.3-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Sep 21 2018 12:16:14
+LogInit: Compiled with Clang: 5.0.0 (tags/RELEASE_500/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: /media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.022s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.03-18.46.48:950][  0]LogInit: Initializing SDL.
+[2018.10.03-18.46.49:109][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.10.03-18.46.49:109][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.10.03-18.46.49:109][  0]LogInit: Using SDL video driver 'x11'
+[2018.10.03-18.46.49:109][  0]LogInit: Display metrics:
+[2018.10.03-18.46.49:109][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2018.10.03-18.46.49:109][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2018.10.03-18.46.49:109][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.10.03-18.46.49:109][  0]LogInit:     Left=0, Top=0, Right=1920, Bottom=1016
+[2018.10.03-18.46.49:109][  0]LogInit:   VirtualDisplayRect:
+[2018.10.03-18.46.49:109][  0]LogInit:     Left=0, Top=0, Right=3840, Bottom=1080
+[2018.10.03-18.46.49:109][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.10.03-18.46.49:109][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.10.03-18.46.49:109][  0]LogInit:   Number of monitors: 2
+[2018.10.03-18.46.49:109][  0]LogInit:     Monitor 0
+[2018.10.03-18.46.49:109][  0]LogInit:       Name: PHL 227E6 22"
+[2018.10.03-18.46.49:109][  0]LogInit:       ID: display0
+[2018.10.03-18.46.49:109][  0]LogInit:       NativeWidth: 1920
+[2018.10.03-18.46.49:109][  0]LogInit:       NativeHeight: 1080
+[2018.10.03-18.46.49:109][  0]LogInit:       bIsPrimary: true
+[2018.10.03-18.46.49:109][  0]LogInit:     Monitor 1
+[2018.10.03-18.46.49:109][  0]LogInit:       Name: VE228 22"
+[2018.10.03-18.46.49:109][  0]LogInit:       ID: display1
+[2018.10.03-18.46.49:109][  0]LogInit:       NativeWidth: 1920
+[2018.10.03-18.46.49:109][  0]LogInit:       NativeHeight: 1080
+[2018.10.03-18.46.49:109][  0]LogInit:       bIsPrimary: false
+[2018.10.03-18.46.49:109][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.10.03-18.46.49:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.10.03-18.46.49:149][  0]LogHAL: Display: Platform has ~ 4 GB [16781991936 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.03-18.46.49:149][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.03-18.46.49:150][  0]LogInit: Using custom *.sym to symbolicate
+[2018.10.03-18.46.49:150][  0]LogInit: Unix hardware info:
+[2018.10.03-18.46.49:150][  0]LogInit:  - we are the first instance of this executable
+[2018.10.03-18.46.49:150][  0]LogInit:  - this process' id (pid) is 11688, parent process' id (ppid) is 1
+[2018.10.03-18.46.49:150][  0]LogInit:  - we are not running under debugger
+[2018.10.03-18.46.49:150][  0]LogInit:  - machine network name is 'MicrolabHS'
+[2018.10.03-18.46.49:150][  0]LogInit:  - user name is 'scad' (scad)
+[2018.10.03-18.46.49:150][  0]LogInit:  - we're logged in locally
+[2018.10.03-18.46.49:150][  0]LogInit:  - we're running with rendering
+[2018.10.03-18.46.49:150][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz' (signature: 0x506E3)
+[2018.10.03-18.46.49:150][  0]LogInit:  - Number of physical cores available for the process: 2
+[2018.10.03-18.46.49:150][  0]LogInit:  - Number of logical cores available for the process: 4
+[2018.10.03-18.46.49:150][  0]LogInit:  - Cache line size: 64
+[2018.10.03-18.46.49:150][  0]LogInit:  - Memory allocator used: binned2
+[2018.10.03-18.46.49:151][  0]LogCore: Benchmarking clocks:
+[2018.10.03-18.46.49:151][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 51980588 (51981K, 52M) calls per second without zero deltas.
+[2018.10.03-18.46.49:151][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 53360912 (53361K, 53M) calls per second without zero deltas.
+[2018.10.03-18.46.49:151][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 3805796 (3806K, 4M) calls per second without zero deltas.
+[2018.10.03-18.46.49:151][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 155889181 (155889K, 156M) calls per second with 99.999833% zero deltas.
+[2018.10.03-18.46.49:151][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.10.03-18.46.49:151][  0]LogInit: Unix-specific commandline switches:
+[2018.10.03-18.46.49:151][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.10.03-18.46.49:151][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.10.03-18.46.49:151][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.10.03-18.46.49:151][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.10.03-18.46.49:151][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2018.10.03-18.46.49:151][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.10.03-18.46.49:151][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.10.03-18.46.49:151][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.10.03-18.46.49:152][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (16004 MB, 16388664 KB, 16781991936 bytes)
+[2018.10.03-18.46.49:391][  0]LogInit: Using OS detected language (en-US).
+[2018.10.03-18.46.49:391][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.03-18.46.49:392][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.03-18.46.49:792][  0]LogStreaming: Display: Took  0.401s to InitEngineTextLocalization.
+[2018.10.03-18.46.50:027][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.03-18.46.50:027][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.03-18.46.51:044][  0]LogRHI: Initializing OpenGL RHI
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_RENDERER: GeForce GTX 1050 Ti/PCIe/SSE2
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 390.87
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2018.10.03-18.46.51:044][  0]LogRHI: OpenGL Extensions:
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_base_instance
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_bindless_texture
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_clear_texture
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_clip_control
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_color_buffer_float
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_compute_shader
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_copy_image
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_cull_distance
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_debug_output
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_depth_texture
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_derivative_control
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_fragment_program
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_geometry_shader4
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_gl_spirv
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_imaging
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_multi_bind
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_multisample
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_multitexture
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_occlusion_query
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_point_parameters
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_point_sprite
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_robustness
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sample_locations
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sample_shading
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_clock
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_objects
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_precision
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shading_language_100
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shading_language_include
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_shadow
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sparse_buffer
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sparse_texture
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sparse_texture2
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_spirv_extensions
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_sync
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_compression
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.10.03-18.46.51:044][  0]LogRHI:   GL_ARB_texture_cube_map
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_env_add
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_env_combine
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_float
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_gather
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_rg
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_storage
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_texture_view
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_timer_query
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_transpose_matrix
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_program
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_viewport_array
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ARB_window_pos
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ATI_draw_buffers
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ATI_texture_float
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_S3_s3tc
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_env_add
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_abgr
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_bgra
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_bindable_uniform
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_blend_color
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_blend_func_separate
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_blend_minmax
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_blend_subtract
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_Cg_shader
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_direct_state_access
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_draw_range_elements
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_fog_coord
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_framebuffer_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_geometry_shader4
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_gpu_shader4
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_packed_float
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_packed_pixels
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_point_parameters
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_raster_multisample
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_rescale_normal
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_secondary_color
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_separate_specular_color
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_shadow_funcs
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_sparse_texture2
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_stencil_two_side
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_stencil_wrap
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture3D
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_array
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_cube_map
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_env_combine
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_integer
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_lod
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_storage
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_timer_query
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_transform_feedback2
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_vertex_array
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_window_rectangles
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_x11_sync_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_import_sync_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_KHR_debug
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_memory_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_memory_object_fd
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_KHR_no_error
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_KHR_robustness
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_semaphore
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_EXT_semaphore_fd
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_KTX_buffer_region
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_bindless_texture
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NVX_blend_equation_advanced_multi_draw_buffers
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_blend_minmax_factor
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_blend_square
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_clip_space_w_scaling
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_command_list
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_compute_program5
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_conditional_render
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_conservative_raster
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_conservative_raster_pre_snap_triangles
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_copy_image
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_depth_buffer_float
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_depth_clamp
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_draw_texture
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_explicit_multisample
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fence
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fill_rectangle
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_float_buffer
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fog_distance
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fragment_program
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fragment_program_option
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fragment_program2
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_geometry_shader4
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_gpu_program4
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_gpu_program4_1
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_gpu_program5
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_gpu_shader5
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_half_float
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_light_max_exponent
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_multisample_coverage
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_occlusion_query
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_path_rendering
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_pixel_data_range
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_point_sprite
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_primitive_restart
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_query_resource
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_query_resource_tag
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_register_combiners
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_register_combiners2
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_sample_locations
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_shader_atomic_float
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_shader_atomic_float64
+[2018.10.03-18.46.51:045][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_shader_buffer_load
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_stereo_view_rendering
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texgen_reflection
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_barrier
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_env_combine4
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_multisample
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_rectangle
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_rectangle_compressed
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_shader
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_shader2
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_texture_shader3
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_transform_feedback
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_transform_feedback2
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vdpau_interop
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_array_range
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_array_range2
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_program
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_program1_1
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_program2
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_program2_option
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_vertex_program3
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_viewport_array2
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_viewport_swizzle
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NVX_conditional_render
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NVX_nvenc_interop
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_shader_thread_group
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_SGIS_texture_lod
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_SGIX_depth_texture
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_SGIX_shadow
+[2018.10.03-18.46.51:046][  0]LogRHI:   GL_SUN_slice_accum
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 32768
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 16384
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 32768
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.10.03-18.46.51:047][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.10.03-18.46.51:047][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.10.03-18.46.51:051][  0]LogRHI: Texture pool is 2867 MB (70% of 4096 MB)
+[2018.10.03-18.46.51:051][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Intermediate/Shaders/WorkingDirectory/11688/).
+[2018.10.03-18.46.51:051][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Intermediate/Shaders/tmp/00031B6108D62979BA28916ECE76B65E/'.
+[2018.10.03-18.46.51:051][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.03-18.46.52:494][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.03-18.46.52:598][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.03-18.46.52:710][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.03-18.46.52:817][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.03-18.46.52:918][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.03-18.46.53:017][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-18.46.53:167][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.10.03-18.46.53:527][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.03-18.46.53:566][  0]LogDerivedDataCache: Loaded boot cache 0.04s 2MB ../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/DerivedDataCache/Boot.ddc.
+[2018.10.03-18.46.53:566][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/DerivedDataCache/Boot.ddc
+[2018.10.03-18.46.53:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.03-18.46.53:567][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.03-18.46.53:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.03-18.46.53:567][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.10.03-18.46.53:589][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.10.03-18.46.53:589][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.03-18.46.53:589][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.03-18.46.53:750][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.10.03-18.46.53:758][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.03-18.46.53:759][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.10.03-18.46.53:832][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2018.10.03-18.46.54:130][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.10.03-18.46.54:788][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.03-18.46.54:788][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.03-18.46.54:788][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.03-18.46.54:788][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.10.03-18.46.54:788][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.03-18.46.54:788][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.10.03-18.46.54:834][  0]LogNetVersion: BasilicaSudak_UE4 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1314248602)
+[2018.10.03-18.46.56:117][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.102013 seconds
+[2018.10.03-18.46.56:122][  0]LogUObjectArray: 37547 objects as part of root set at end of initial load.
+[2018.10.03-18.46.56:122][  0]LogUObjectAllocator: 6509480 out of 0 bytes used by permanent object pool.
+[2018.10.03-18.46.56:122][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.03-18.46.56:283][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.10.03-18.46.56:989][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.10.03-18.46.56:989][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.10.03-18.46.56:989][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:990][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.56:990][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:990][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.56:990][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.10.03-18.46.56:990][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.10.03-18.46.56:990][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:990][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.56:990][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:990][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.56:991][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.10.03-18.46.56:991][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.10.03-18.46.56:991][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:991][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.56:991][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:991][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.56:991][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.10.03-18.46.56:991][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.10.03-18.46.56:991][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:991][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.56:992][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.10.03-18.46.56:992][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.10.03-18.46.59:954][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.03-18.46.59:957][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.03-18.47.04:469][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.03-18.47.04:743][  0]SourceControl: Source control is disabled
+[2018.10.03-18.47.04:743][  0]SourceControl: Source control is disabled
+[2018.10.03-18.47.04:835][  0]SourceControl: Source control is disabled
+[2018.10.03-18.47.05:427][  0]SourceControl: Source control is disabled
+[2018.10.03-18.47.05:573][  0]LogEngine: Initializing Engine...
+[2018.10.03-18.47.05:573][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.10.03-18.47.05:574][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.03-18.47.05:574][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.03-18.47.05:574][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.03-18.47.05:574][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.03-18.47.06:473][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.03-18.47.06:786][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.10.03-18.47.06:795][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.10.03-18.47.06:800][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.10.03-18.47.06:867][  0]LogInit: FAudioDevice initialized.
+[2018.10.03-18.47.06:868][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.03-18.47.06:917][  0]LogDerivedDataCache: Saved boot cache 0.05s 85MB ../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/DerivedDataCache/Boot.ddc.
+[2018.10.03-18.47.07:178][  0]LogInit: Texture streaming: Enabled
+[2018.10.03-18.47.07:236][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.03-18.47.07:534][  0]LogInit: Transaction tracking system initialized
+[2018.10.03-18.47.08:098][  0]BlueprintLog: New page: Editor Load
+[2018.10.03-18.47.09:746][  0]LocalizationService: Localization service is disabled
+[2018.10.03-18.47.11:403][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/' took 0.02s
+[2018.10.03-18.47.11:403][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.03-18.47.11:403][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.03-18.47.11:403][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.03-18.47.11:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.03-18.47.11:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.03-18.47.11:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.03-18.47.11:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.03-18.47.13:523][  0]SourceControl: Source control is disabled
+[2018.10.03-18.47.13:523][  0]Cmd: MAP LOAD FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/ChirschScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.03-18.47.13:531][  0]LightingResults: New page: Lighting Build
+[2018.10.03-18.47.13:596][  0]MapCheck: New page: Map Check
+[2018.10.03-18.47.13:597][  0]LightingResults: New page: Lighting Build
+[2018.10.03-18.47.22:003][  0]LogAIModule: Creating AISystem for world ChirschScene
+[2018.10.03-18.47.23:237][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.03-18.47.23:282][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.03-18.47.23:310][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 27.589ms to complete.
+[2018.10.03-18.47.23:310][  0]LogFileHelpers: Loading map 'ChirschScene' took 9.787
+[2018.10.03-18.47.23:648][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-18.47.23:680][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-18.47.23:698][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-18.47.23:786][  0]LogCollectionManager: Loaded 0 collections in 0.023896 seconds
+[2018.10.03-18.47.23:913][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Collections/' took 0.00s
+[2018.10.03-18.47.23:913][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Developers/scad/Collections/' took 0.00s
+[2018.10.03-18.47.23:913][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Collections/' took 0.00s
+[2018.10.03-18.47.23:913][  0]LogContentBrowser: Native class hierarchy populated in 0.0368 seconds. Added 2545 classes and 566 folders.
+[2018.10.03-18.47.23:941][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.10.03-18.47.24:228][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.03-18.47.24:812][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.10.03-18.47.24:986][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.03-18.47.26:667][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.03-18.47.26:667][  0]LogLoad: (Engine Initialization) Total time: 40.87 seconds
+[2018.10.03-18.47.26:667][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.03-18.47.26:678][  0]LogSlate: Took 0.000064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.03-18.47.26:682][  0]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.03-18.47.26:738][  0]LogSlate: Took 0.049192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.03-18.47.26:746][  0]LogSlate: Took 0.007401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.10.03-18.47.27:209][  0]LogRenderer: Reallocating scene render targets to support 712x404 Format 10 NumSamples 1 (Frame:1).
+[2018.10.03-18.47.27:482][  0]LogInit: Adding external input plugin.
+[2018.10.03-18.47.27:508][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.47.27:698][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.03-18.47.27:707][  1]LogFileCache: Retrieving MD5 hashes for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/' took 0.22s
+[2018.10.03-18.47.27:721][  1]LogAssetRegistry: Asset discovery search completed in 33.8892 seconds
+[2018.10.03-18.47.27:723][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.03-18.47.27:723][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000238 seconds (updated 0 objects)
+[2018.10.03-18.47.27:930][  2]LogSlate: Took 0.026676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.03-18.47.28:052][ 11]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.47.30:516][272]AssetReimport: New page: Outstanding source content changes 1:47:30 AM
+[2018.10.03-18.47.30:578][273]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/CherryBush.fbx]
+[2018.10.03-18.47.30:629][273]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/CherryBush.fbx
+[2018.10.03-18.47.30:671][273]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.03-18.47.30:792][273]LogStaticMesh: Building static mesh CherryBush...
+[2018.10.03-18.47.30:917][273]LogStaticMesh: Built static mesh [0.13s] /Game/Objects/CherryBush.CherryBush
+[2018.10.03-18.47.31:053][273]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.03-18.47.31:061][273]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.47.31:138][273]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.47.52:378][273]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.47.53:688][273]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2018.10.03-18.47.53:792][273]LogEditorFactories: -- imported successfully
+[2018.10.03-18.47.53:967][274]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/OakTree.fbx]
+[2018.10.03-18.47.53:977][274]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/OakTree.fbx
+[2018.10.03-18.47.53:985][274]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.03-18.47.54:022][274]LogStaticMesh: Building static mesh OakTree...
+[2018.10.03-18.47.54:024][274]LogStaticMesh: Built static mesh [0.00s] /Game/Objects/OakTree.OakTree
+[2018.10.03-18.47.54:214][274]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.03-18.47.54:259][274]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.47.55:799][274]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2018.10.03-18.47.55:918][274]LogEditorFactories: -- imported successfully
+[2018.10.03-18.47.56:063][275]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.03-18.47.56:135][275]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.47.56:226][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/CherryBush" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/CherryBush.uasset" SILENT=true
+[2018.10.03-18.47.56:288][275]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/CherryBush1B37F89408D62979E10799CED259D0BB.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/CherryBush.uasset'
+[2018.10.03-18.47.56:330][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/OakTree" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/OakTree.uasset" SILENT=true
+[2018.10.03-18.47.56:353][275]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/OakTree1B39097908D62979E111A09AD25AD16A.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/OakTree.uasset'
+[2018.10.03-18.47.57:133][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-18.47.57:170][323]LogSlate: Took 0.000057 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.03-18.47.59:377][513]AssetReimport: Reimported asset CherryBush from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/CherryBush.fbx.
+[2018.10.03-18.47.59:377][513]AssetReimport: Reimported asset OakTree from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Objects/OakTree.fbx.
+[2018.10.03-18.48.00:761][673]LogRenderer: Reallocating scene render targets to support 712x408 Format 10 NumSamples 1 (Frame:588).
+[2018.10.03-18.48.01:055][674]LogRenderer: Reallocating scene render targets to support 712x528 Format 10 NumSamples 1 (Frame:593).
+[2018.10.03-18.48.01:238][675]LogRenderer: Reallocating scene render targets to support 712x536 Format 10 NumSamples 1 (Frame:598).
+[2018.10.03-18.48.01:471][676]LogRenderer: Reallocating scene render targets to support 712x544 Format 10 NumSamples 1 (Frame:603).
+[2018.10.03-18.48.01:753][688]LogRenderer: Reallocating scene render targets to support 712x552 Format 10 NumSamples 1 (Frame:611).
+[2018.10.03-18.48.01:866][689]LogRenderer: Reallocating scene render targets to support 712x556 Format 10 NumSamples 1 (Frame:616).
+[2018.10.03-18.48.02:421][743]LogRenderer: Reallocating scene render targets to support 712x560 Format 10 NumSamples 1 (Frame:622).
+[2018.10.03-18.48.03:858][876]LogRenderer: Reallocating scene render targets to support 716x572 Format 10 NumSamples 1 (Frame:745).
+[2018.10.03-18.48.04:031][877]LogRenderer: Reallocating scene render targets to support 816x572 Format 10 NumSamples 1 (Frame:748).
+[2018.10.03-18.48.06:805][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-18.48.06:981][982]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.48.14:531][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-18.48.18:375][612]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Oak_Leafs.Oak_Leafs
+[2018.10.03-18.48.18:380][612]LogMaterial: Display: Missing cached shader map for material Oak_Leafs, compiling. 
+[2018.10.03-18.48.18:614][612]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.48.19:474][612]LogMaterial: Display: Missing cached shader map for material Oak_Leafs, compiling. 
+[2018.10.03-18.48.19:532][612]LogMaterial: Display: Missing cached shader map for material Oak_Leafs, compiling. 
+[2018.10.03-18.48.19:582][612]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.48.19:582][612]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.48.19:583][612]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.48.19:585][612]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.03-18.48.19:590][612]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.10.03-18.48.19:595][612]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.10.03-18.48.19:601][612]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.10.03-18.48.19:880][612]LogSlate: Took 0.049285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.03-18.48.21:634][731]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.03-18.48.21:666][735]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.03-18.48.22:024][755]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.03-18.48.22:170][768]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.48.22:488][794]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.03-18.48.22:636][809]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.48.22:745][818]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.48.23:191][863]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.48.23:420][877]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.48.23:539][886]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-18.48.23:899][912]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-18.48.24:012][916]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-18.48.24:115][921]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.48.24:197][923]LogMaterial: Display: Missing cached shader map for material Oak_Leafs, compiling. 
+[2018.10.03-18.48.24:363][923]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.03-18.48.24:408][923]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.48.24:440][923]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.03-18.48.24:451][923]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.10.03-18.48.24:461][923]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.10.03-18.48.24:471][923]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.10.03-18.48.24:774][945]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.10.03-18.48.25:358][998]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.10.03-18.48.25:452][  8]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.03-18.48.25:516][ 16]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.03-18.48.25:758][ 45]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.03-18.48.26:033][ 78]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.03-18.48.26:397][114]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.48.26:602][127]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.03-18.48.26:631][128]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.48.27:031][157]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.48.27:064][161]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.48.27:348][170]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.48.27:437][170]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-18.48.27:741][181]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-18.48.27:814][186]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-18.48.27:957][200]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.48.28:389][234]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.03-18.48.28:523][238]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.03-18.48.28:653][243]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.03-18.48.28:894][259]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.03-18.48.29:036][269]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.03-18.48.29:350][281]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.03-18.48.29:570][284]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.03-18.48.29:586][284]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.03-18.48.30:205][309]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.03-18.48.30:205][309]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-18.48.30:206][309]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.03-18.48.30:782][335]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.03-18.48.30:911][341]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.03-18.48.30:941][342]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.03-18.48.31:221][349]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.03-18.48.31:511][356]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.03-18.48.31:586][358]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.03-18.48.31:815][360]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.03-18.48.32:362][373]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.03-18.48.32:397][374]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-18.48.32:498][377]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.03-18.48.32:963][388]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.03-18.48.33:135][393]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.03-18.48.33:508][402]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.03-18.48.33:640][406]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.03-18.48.33:951][412]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-18.48.34:129][417]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-18.48.34:466][423]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-18.48.34:696][430]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-18.48.34:786][430]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Objects/OakTree.OakTree
+[2018.10.03-18.48.35:017][430]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.48.35:018][430]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-18.48.35:382][430]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-18.48.35:479][430]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-18.48.35:720][430]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-18.48.35:783][430]LogRenderer: Reallocating scene render targets to support 1432x932 Format 10 NumSamples 1 (Frame:1).
+[2018.10.03-18.48.35:783][430]LogSlate: Took 0.011368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.03-18.48.36:220][449]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-18.48.36:220][449]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-18.48.36:322][453]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-18.48.36:901][482]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-18.48.36:928][484]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-18.48.37:345][504]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-18.48.37:791][523]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-18.48.37:860][527]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-18.48.38:071][537]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-18.48.38:347][547]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-18.48.38:467][552]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-18.48.38:563][557]MaterialEditorStats: Base pass shader: 0 instructions
+[2018.10.03-18.48.38:563][557]MaterialEditorStats: Base pass shader with Surface Lightmap: 0 instructions
+[2018.10.03-18.48.38:563][557]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 0 instructions
+[2018.10.03-18.48.38:564][557]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2018.10.03-18.48.38:564][557]MaterialEditorStats: Texture samplers: 17/16
+[2018.10.03-18.48.38:564][557]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2018.10.03-18.48.38:564][557]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.03-18.48.39:060][579]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-18.48.39:076][580]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-18.48.39:081][580]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.03-18.48.39:481][602]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-18.48.39:906][624]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-18.48.48:059][972]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Objects/CherryBush.CherryBush
+[2018.10.03-18.48.48:075][972]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.49.00:300][269]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Cherry_Leafs.Cherry_Leafs
+[2018.10.03-18.49.00:306][269]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.49.00:339][269]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.49.00:440][269]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.49.00:470][269]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.49.00:499][269]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.49.00:499][269]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.49.00:499][269]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.49.00:585][269]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.03-18.49.00:609][269]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.10.03-18.49.00:618][269]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.10.03-18.49.00:646][269]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.10.03-18.49.01:408][276]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.03-18.49.01:534][276]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.03-18.49.01:758][283]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.03-18.49.01:781][284]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.49.02:044][289]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.03-18.49.02:284][294]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.49.02:391][297]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.49.02:530][301]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.49.02:939][308]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.49.03:015][309]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-18.49.03:030][310]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-18.49.03:349][320]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-18.49.03:642][329]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.49.03:698][330]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.03-18.49.03:704][330]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.03-18.49.03:954][337]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.03-18.49.04:233][345]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.03-18.49.04:309][345]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.49.04:399][345]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.03-18.49.04:514][345]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.03-18.49.04:522][345]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.10.03-18.49.04:531][345]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.10.03-18.49.04:540][345]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.03-18.49.04:541][345]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.10.03-18.49.04:731][351]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.10.03-18.49.05:158][367]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.03-18.49.05:239][373]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.03-18.49.05:547][396]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.03-18.49.05:579][397]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.03-18.49.05:918][402]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.49.05:994][408]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.03-18.49.06:243][419]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.49.06:552][443]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.49.06:569][445]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.49.07:050][481]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.49.07:165][482]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-18.49.07:333][482]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-18.49.07:599][499]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-18.49.07:707][501]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.49.08:014][507]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.03-18.49.08:014][507]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.03-18.49.08:419][509]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.03-18.49.08:450][510]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.03-18.49.08:564][514]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.03-18.49.08:792][519]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.03-18.49.08:902][521]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.03-18.49.09:098][525]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.03-18.49.09:229][528]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.03-18.49.09:522][534]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-18.49.09:663][537]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.03-18.49.09:802][538]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.03-18.49.10:090][543]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.03-18.49.10:357][544]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.03-18.49.10:364][544]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.03-18.49.10:589][549]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.03-18.49.10:792][563]LogMaterialEditor: Saving and Compiling material Oak_Leafs
+[2018.10.03-18.49.10:854][563]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.03-18.49.12:222][563]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.03-18.49.12:222][563]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.03-18.49.12:222][563]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-18.49.12:222][563]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.03-18.49.12:223][563]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.03-18.49.12:322][563]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.03-18.49.12:322][563]LogMaterial: Display: Missing cached shader map for material Oak_Leafs, compiling. 
+[2018.10.03-18.49.12:689][563]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.10.03-18.49.12:693][563]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.49.12:829][563]LogMaterial: Display: Missing cached shader map for material Oak_Leafs, compiling. 
+[2018.10.03-18.49.12:924][563]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.10.03-18.49.12:934][563]LogMaterial: Display: Missing cached shader map for material Oak_Leafs, compiling. 
+[2018.10.03-18.49.13:074][563]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Oak_Leafs, compiling. 
+[2018.10.03-18.49.13:087][563]TextureStreamingBuild: Display: Compiling optional shaders took 0.018 seconds.
+[2018.10.03-18.49.13:111][563]LogShaderCompilers: Display: Shaders left to compile 191
+[2018.10.03-18.49.13:246][563]LogShaderCompilers: Display: Shaders left to compile 190
+[2018.10.03-18.49.13:435][563]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.49.41:710][563]LogShaderCompilers: Display: Shaders left to compile 189
+[2018.10.03-18.49.41:710][563]LogShaderCompilers: Display: Shaders left to compile 188
+[2018.10.03-18.49.41:711][563]LogShaderCompilers: Display: Shaders left to compile 187
+[2018.10.03-18.49.41:711][563]LogShaderCompilers: Display: Shaders left to compile 186
+[2018.10.03-18.49.41:711][563]LogShaderCompilers: Display: Shaders left to compile 185
+[2018.10.03-18.49.41:711][563]LogShaderCompilers: Display: Shaders left to compile 184
+[2018.10.03-18.49.41:711][563]LogShaderCompilers: Display: Shaders left to compile 183
+[2018.10.03-18.49.41:711][563]LogShaderCompilers: Display: Shaders left to compile 182
+[2018.10.03-18.49.41:711][563]LogShaderCompilers: Display: Shaders left to compile 181
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 180
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 179
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 178
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 177
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 176
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 175
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 174
+[2018.10.03-18.49.41:712][563]LogShaderCompilers: Display: Shaders left to compile 173
+[2018.10.03-18.49.41:713][563]LogShaderCompilers: Display: Shaders left to compile 172
+[2018.10.03-18.49.41:713][563]LogShaderCompilers: Display: Shaders left to compile 171
+[2018.10.03-18.49.41:713][563]LogShaderCompilers: Display: Shaders left to compile 170
+[2018.10.03-18.49.41:713][563]LogShaderCompilers: Display: Shaders left to compile 169
+[2018.10.03-18.49.41:713][563]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.10.03-18.49.41:713][563]LogShaderCompilers: Display: Shaders left to compile 167
+[2018.10.03-18.49.41:714][563]LogShaderCompilers: Display: Shaders left to compile 166
+[2018.10.03-18.49.41:714][563]LogShaderCompilers: Display: Shaders left to compile 165
+[2018.10.03-18.49.41:714][563]LogShaderCompilers: Display: Shaders left to compile 164
+[2018.10.03-18.49.41:714][563]LogShaderCompilers: Display: Shaders left to compile 163
+[2018.10.03-18.49.41:714][563]LogShaderCompilers: Display: Shaders left to compile 162
+[2018.10.03-18.49.41:714][563]LogShaderCompilers: Display: Shaders left to compile 161
+[2018.10.03-18.49.41:714][563]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.10.03-18.49.41:715][563]LogShaderCompilers: Display: Shaders left to compile 159
+[2018.10.03-18.49.41:715][563]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.10.03-18.49.41:715][563]LogShaderCompilers: Display: Shaders left to compile 157
+[2018.10.03-18.49.41:715][563]LogShaderCompilers: Display: Shaders left to compile 156
+[2018.10.03-18.49.41:715][563]LogShaderCompilers: Display: Shaders left to compile 155
+[2018.10.03-18.49.41:715][563]LogShaderCompilers: Display: Shaders left to compile 154
+[2018.10.03-18.49.41:715][563]LogShaderCompilers: Display: Shaders left to compile 153
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 152
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 151
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 149
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 146
+[2018.10.03-18.49.41:716][563]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 143
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 141
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 139
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 137
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 136
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 135
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 134
+[2018.10.03-18.49.41:717][563]LogShaderCompilers: Display: Shaders left to compile 133
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 131
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 129
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 127
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 126
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 125
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 124
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 123
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.10.03-18.49.41:718][563]LogShaderCompilers: Display: Shaders left to compile 121
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 119
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 117
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 116
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 113
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.10.03-18.49.41:719][563]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-18.49.41:720][563]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-18.49.41:881][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Oak_Leafs" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Materials/Oak_Leafs.uasset" SILENT=true
+[2018.10.03-18.49.41:905][563]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Oak_Leafs1D3929D608D6297A1FFB6A20D8A5657D.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Materials/Oak_Leafs.uasset'
+[2018.10.03-18.49.42:067][563]MaterialEditorStats: Base pass shader: 0 instructions
+[2018.10.03-18.49.42:067][563]MaterialEditorStats: Base pass shader with Surface Lightmap: 0 instructions
+[2018.10.03-18.49.42:067][563]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 0 instructions
+[2018.10.03-18.49.42:067][563]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2018.10.03-18.49.42:067][563]MaterialEditorStats: Texture samplers: 17/16
+[2018.10.03-18.49.42:067][563]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2018.10.03-18.49.42:068][563]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.03-18.49.46:679][695]LogMaterialEditor: Saving and Compiling material Cherry_Leafs
+[2018.10.03-18.49.47:567][695]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.49.47:727][695]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.49.47:728][695]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.49.47:728][695]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.49.47:894][695]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.49.48:017][695]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.49.48:017][695]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.49.48:153][695]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.49.48:312][695]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Cherry_Leafs, compiling. 
+[2018.10.03-18.49.48:318][695]LogShaderCompilers: Display: Shaders left to compile 163
+[2018.10.03-18.49.48:320][695]TextureStreamingBuild: Display: Compiling optional shaders took 0.017 seconds.
+[2018.10.03-18.49.48:867][695]LogShaderCompilers: Display: Shaders left to compile 162
+[2018.10.03-18.49.48:871][695]LogShaderCompilers: Display: Shaders left to compile 161
+[2018.10.03-18.49.48:892][695]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.10.03-18.49.48:923][695]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.50.12:566][695]LogShaderCompilers: Display: Shaders left to compile 159
+[2018.10.03-18.50.12:566][695]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.10.03-18.50.12:566][695]LogShaderCompilers: Display: Shaders left to compile 157
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 156
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 155
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 154
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 153
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 152
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 151
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 149
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.10.03-18.50.12:567][695]LogShaderCompilers: Display: Shaders left to compile 146
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 143
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 141
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 139
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 137
+[2018.10.03-18.50.12:568][695]LogShaderCompilers: Display: Shaders left to compile 136
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 135
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 134
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 133
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 131
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 129
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 127
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 126
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 125
+[2018.10.03-18.50.12:569][695]LogShaderCompilers: Display: Shaders left to compile 124
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 123
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 121
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 119
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 117
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 116
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 113
+[2018.10.03-18.50.12:570][695]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-18.50.12:571][695]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-18.50.12:623][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Cherry_Leafs" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Materials/Cherry_Leafs.uasset" SILENT=true
+[2018.10.03-18.50.12:647][695]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Cherry_Leafs1D8E363308D6297A324E578CDA7A7D38.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Content/Materials/Cherry_Leafs.uasset'
+[2018.10.03-18.50.28:586][482]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.06:505][934]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.06:945][967]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.08:322][ 67]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.24:673][ 67]LogSlate: Window 'Open File' being destroyed
+[2018.10.03-18.53.25:031][ 67]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.25:088][ 67]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/oalSprite.png)
+[2018.10.03-18.53.25:273][ 67]LogTexture: Display: Building textures: oalSprite (AutoDXT, 1080X1920)
+[2018.10.03-18.53.27:189][ 67]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/oalSprite_displace.png)
+[2018.10.03-18.53.27:315][ 67]LogTexture: Display: Building textures: oalSprite_displace (AutoDXT, 1080X1920)
+[2018.10.03-18.53.27:679][ 67]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/oalSprite_normal.png)
+[2018.10.03-18.53.27:926][ 67]LogTexture: Display: Building textures: oalSprite_normal (BC5, 1080X1920)
+[2018.10.03-18.53.28:175][ 67]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.28:215][ 67]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/oalSprite_spec.png)
+[2018.10.03-18.53.28:308][ 67]LogTexture: Display: Building textures: oalSprite_spec (AutoDXT, 1080X1920)
+[2018.10.03-18.53.32:390][207]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.32:823][254]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.33:071][266]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.53.34:046][346]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.54.29:945][346]LogSlate: Window 'Open File' being destroyed
+[2018.10.03-18.54.30:234][346]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.54.30:274][346]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/CherrySprite.png)
+[2018.10.03-18.54.30:439][346]LogTexture: Display: Building textures: CherrySprite (AutoDXT, 1080X1920)
+[2018.10.03-18.54.32:089][346]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/CherrySprite_displace.png)
+[2018.10.03-18.54.32:206][346]LogTexture: Display: Building textures: CherrySprite_displace (AutoDXT, 1080X1920)
+[2018.10.03-18.54.32:787][346]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/CherrySprite_normal.png)
+[2018.10.03-18.54.32:965][346]LogTexture: Display: Building textures: CherrySprite_normal (BC5, 1080X1920)
+[2018.10.03-18.54.33:250][346]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.54.33:302][346]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/BLEND/Textures/CherrySprite_spec.png)
+[2018.10.03-18.54.33:410][346]LogTexture: Display: Building textures: CherrySprite_spec (AutoDXT, 1080X1920)
+[2018.10.03-18.54.43:522][691]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.54.53:096][665]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.54.53:133][665]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.54.53:133][665]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.54.53:133][665]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.54.53:133][665]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.03-18.54.53:174][665]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.54.53:921][687]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.54.54:159][700]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.03-18.54.54:411][713]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.54.54:819][732]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.54.54:836][733]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.54.55:033][740]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.54.55:468][753]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-18.54.55:529][756]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-18.54.55:608][758]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-18.54.55:993][763]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.54.56:071][767]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.54.56:160][773]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.03-18.54.56:160][773]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.03-18.54.56:571][794]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.03-18.54.56:653][800]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.03-18.54.56:816][816]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.03-18.54.57:136][826]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.03-18.54.57:331][832]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.03-18.54.57:454][845]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.03-18.54.57:773][866]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.03-18.54.57:774][866]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-18.54.58:132][895]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.03-18.54.58:157][897]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.03-18.54.58:359][912]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.03-18.54.58:579][937]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.03-18.54.58:816][958]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.03-18.54.58:936][967]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.03-18.54.59:343][997]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.03-18.54.59:444][  7]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.03-18.54.59:669][ 26]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.03-18.54.59:823][ 35]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-18.55.00:136][ 57]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.03-18.55.00:285][ 69]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.03-18.55.00:418][ 83]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.03-18.55.00:553][ 99]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.03-18.55.00:854][118]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.03-18.55.01:069][137]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-18.55.01:294][153]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-18.55.01:724][196]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-18.55.01:942][217]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-18.55.02:558][278]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-18.55.02:558][278]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-18.55.02:655][289]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-18.55.03:234][331]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-18.55.03:346][335]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-18.55.03:523][348]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-18.55.03:921][379]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-18.55.04:112][400]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-18.55.04:551][442]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-18.55.04:901][475]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-18.55.05:088][492]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-18.55.05:173][500]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-18.55.05:725][542]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-18.55.05:836][551]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-18.55.06:428][595]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.55.06:479][595]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.55.06:492][595]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.10.03-18.55.06:524][595]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.55.06:630][597]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.55.06:969][610]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.03-18.55.07:052][610]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.55.07:440][626]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.55.07:636][639]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.55.07:744][643]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.55.08:027][652]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-18.55.08:143][658]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-18.55.08:170][659]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-18.55.08:651][679]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.55.08:661][680]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.03-18.55.08:913][690]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.03-18.55.08:999][694]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.03-18.55.09:324][708]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.03-18.55.09:489][715]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.03-18.55.09:580][719]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.03-18.55.09:918][733]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.03-18.55.10:078][740]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.03-18.55.10:111][741]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.03-18.55.10:345][750]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-18.55.10:727][768]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.03-18.55.10:806][772]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.03-18.55.10:828][772]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.03-18.55.11:211][788]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.03-18.55.11:391][795]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.03-18.55.11:436][797]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.03-18.55.11:781][811]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.03-18.55.11:899][816]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.03-18.55.12:175][828]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.03-18.55.12:197][829]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-18.55.12:421][839]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.03-18.55.12:566][846]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.03-18.55.12:709][852]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.03-18.55.13:064][869]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.03-18.55.13:187][874]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.03-18.55.13:243][876]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-18.55.13:689][894]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-18.55.13:861][899]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-18.55.14:183][914]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-18.55.14:547][931]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-18.55.14:659][936]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-18.55.14:872][945]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-18.55.15:602][976]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-18.55.15:610][976]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-18.55.15:617][977]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-18.55.16:339][  8]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-18.55.16:339][  8]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-18.55.16:860][ 28]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-18.55.17:470][ 45]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-18.55.17:531][ 47]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-18.55.17:885][ 62]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-18.55.18:498][ 95]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-18.55.18:547][ 97]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-18.55.18:621][100]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-18.55.19:300][115]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-18.55.19:399][116]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-18.55.19:435][117]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.55.19:532][123]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.03-18.55.20:044][149]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-18.55.20:383][168]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-18.55.54:270][113]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.55.54:317][113]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.55.54:318][113]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.55.54:318][113]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.55.54:318][113]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.10.03-18.55.54:357][113]LogMaterial: Display: Missing cached shader map for material Cherry_Leafs, compiling. 
+[2018.10.03-18.55.55:069][143]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.03-18.55.55:121][145]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.03-18.55.55:402][158]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.03-18.55.55:616][168]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.03-18.55.55:845][178]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.03-18.55.56:074][184]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.03-18.55.56:347][195]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-18.55.56:472][199]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-18.55.56:843][201]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-18.55.56:843][201]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-18.55.56:955][201]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.03-18.55.57:250][224]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.03-18.55.57:511][234]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.03-18.55.57:638][238]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.03-18.55.57:654][239]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.03-18.55.58:126][258]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.03-18.55.58:171][260]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.03-18.55.58:239][263]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.03-18.55.58:603][277]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.03-18.55.58:638][278]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-18.55.58:782][284]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.03-18.55.59:105][295]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.03-18.55.59:138][296]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.03-18.55.59:159][297]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.03-18.55.59:539][310]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.03-18.55.59:612][313]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.03-18.55.59:660][315]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.03-18.55.59:986][329]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.03-18.56.00:098][334]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.03-18.56.00:195][339]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-18.56.00:611][357]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.03-18.56.00:709][361]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.03-18.56.00:867][368]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.03-18.56.01:231][384]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.03-18.56.01:324][387]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.03-18.56.01:415][391]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-18.56.01:961][416]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-18.56.02:160][425]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-18.56.02:500][437]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-18.56.02:860][452]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-18.56.02:945][455]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-18.56.03:275][467]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-18.56.03:682][485]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-18.56.03:784][489]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-18.56.03:911][495]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-18.56.04:526][521]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-18.56.04:540][521]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-18.56.04:551][522]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-18.56.05:343][554]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-18.56.05:373][555]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-18.56.05:536][563]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-18.56.06:085][586]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-18.56.06:329][598]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-18.56.06:440][603]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-18.56.07:140][631]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-18.56.07:155][632]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-18.56.07:183][633]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.03-18.56.07:796][650]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-18.56.07:988][655]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-18.56.08:990][658]MaterialEditorStats: Base pass shader: 0 instructions
+[2018.10.03-18.56.08:991][658]MaterialEditorStats: Base pass shader with Surface Lightmap: 0 instructions
+[2018.10.03-18.56.08:991][658]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 0 instructions
+[2018.10.03-18.56.08:992][658]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2018.10.03-18.56.08:992][658]MaterialEditorStats: Texture samplers: 17/16
+[2018.10.03-18.56.08:993][658]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2018.10.03-18.56.08:993][658]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.03-18.57.20:430][873]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.57.29:171][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.10.03-18.57.29:346][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ChirschScene" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/ChirschScene_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.03-18.57.30:583][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/ChirschScene_Auto11F36A2CA08D6297B36D9639AF48852A3.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/ChirschScene_Auto1.umap'
+[2018.10.03-18.57.30:615][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ChirschScene' took 1.345
+[2018.10.03-18.57.30:615][294]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.345
+[2018.10.03-18.57.30:636][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/OakTree] ([1] browsable assets)...
+[2018.10.03-18.57.30:686][294]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Objects/OakTree.OakTree]
+[2018.10.03-18.57.30:687][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/OakTree]
+[2018.10.03-18.57.30:687][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/OakTree" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Objects/OakTree_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.03-18.57.30:711][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/OakTree_Auto11F3AD18108D6297B376A4068F496CF09.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Objects/OakTree_Auto1.uasset'
+[2018.10.03-18.57.30:791][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/oalSprite] ([1] browsable assets)...
+[2018.10.03-18.57.30:806][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/oalSprite.oalSprite]
+[2018.10.03-18.57.30:807][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/oalSprite]
+[2018.10.03-18.57.30:880][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/oalSprite_Auto11F3CAFAC08D6297B377CA140F498A584.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/oalSprite_Auto1.uasset'
+[2018.10.03-18.57.30:931][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/oalSprite_displace] ([1] browsable assets)...
+[2018.10.03-18.57.30:951][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/oalSprite_displace.oalSprite_displace]
+[2018.10.03-18.57.30:952][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/oalSprite_displace]
+[2018.10.03-18.57.31:013][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/oalSprite_displace_Auto11F3F2AF908D6297B37935D2CF49AEB80.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/oalSprite_displace_Auto1.uasset'
+[2018.10.03-18.57.31:017][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/oalSprite_normal] ([1] browsable assets)...
+[2018.10.03-18.57.31:025][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/oalSprite_normal.oalSprite_normal]
+[2018.10.03-18.57.31:026][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/oalSprite_normal]
+[2018.10.03-18.57.31:185][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/oalSprite_normal_Auto11F42F60708D6297B37A64BBCF49CD024.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/oalSprite_normal_Auto1.uasset'
+[2018.10.03-18.57.31:192][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/oalSprite_spec] ([1] browsable assets)...
+[2018.10.03-18.57.31:206][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/oalSprite_spec.oalSprite_spec]
+[2018.10.03-18.57.31:209][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/oalSprite_spec]
+[2018.10.03-18.57.31:271][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/oalSprite_spec_Auto11F45610108D6297B37B9F694F49EC79D.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/oalSprite_spec_Auto1.uasset'
+[2018.10.03-18.57.31:278][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/CherrySprite] ([1] browsable assets)...
+[2018.10.03-18.57.31:298][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/CherrySprite.CherrySprite]
+[2018.10.03-18.57.31:299][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/CherrySprite]
+[2018.10.03-18.57.31:344][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/CherrySprite_Auto11F48EBA108D6297B37CB91F6F4A08A57.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/CherrySprite_Auto1.uasset'
+[2018.10.03-18.57.31:346][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/CherrySprite_displace] ([1] browsable assets)...
+[2018.10.03-18.57.31:350][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/CherrySprite_displace.CherrySprite_displace]
+[2018.10.03-18.57.31:350][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/CherrySprite_displace]
+[2018.10.03-18.57.31:509][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/CherrySprite_displace_Auto11F4B940308D6297B37DE2244F4A26591.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/CherrySprite_displace_Auto1.uasset'
+[2018.10.03-18.57.31:515][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/CherrySprite_normal] ([1] browsable assets)...
+[2018.10.03-18.57.31:531][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/CherrySprite_normal.CherrySprite_normal]
+[2018.10.03-18.57.31:532][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/CherrySprite_normal]
+[2018.10.03-18.57.31:637][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/CherrySprite_normal_Auto11F4ED20908D6297B37F1C8A8F4A45C99.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/CherrySprite_normal_Auto1.uasset'
+[2018.10.03-18.57.31:640][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Textures/CherrySprite_spec] ([1] browsable assets)...
+[2018.10.03-18.57.31:646][294]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Textures/CherrySprite_spec.CherrySprite_spec]
+[2018.10.03-18.57.31:646][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Textures/CherrySprite_spec]
+[2018.10.03-18.57.31:773][294]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/CherrySprite_spec_Auto11F51A02C08D6297B38060C28F4A66356.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/UE4/Saved/Autosaves/Game/Materials/Textures/CherrySprite_spec_Auto1.uasset'
+[2018.10.03-18.57.31:780][294]LogFileHelpers: Auto-saving content packages took 1.144

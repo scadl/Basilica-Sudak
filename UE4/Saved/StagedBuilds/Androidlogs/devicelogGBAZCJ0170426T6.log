@@ -1,0 +1,242 @@
+--------- beginning of main
+10-06 19:21:25.113 12881 12881 W pool-128-thread: type=1400 audit(0.0:36759): avc: denied { read } for name="block" dev="sysfs" ino=16816 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+10-06 19:21:25.118 13728 13728 I art     : Starting a blocking GC AddRemoveAppImageSpace
+10-06 19:21:25.120 31391 12881 W System.err: java.lang.NullPointerException
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.Objects.requireNonNull(Objects.java:203)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.Arrays$ArrayList.<init>(Arrays.java:3826)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.Arrays.asList(Arrays.java:3813)
+10-06 19:21:25.121 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.CpuText.m(SourceFile:1470)
+10-06 19:21:25.121 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.CpuText.b(SourceFile:864)
+10-06 19:21:25.121 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.h.run(SourceFile:421)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:278)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:273)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+10-06 19:21:25.121 31391 12881 W System.err: 	at java.lang.Thread.run(Thread.java:761)
+10-06 19:21:25.204 13728 13728 I MultiDex: VM with version 2.1.0 has multidex support
+10-06 19:21:25.205 13728 13728 I MultiDex: Installing application
+10-06 19:21:25.205 13728 13728 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+10-06 19:21:25.240 13728 13728 V Monotype: SetAppTypeFace- try to flip, app = com.cmcm.freevpn
+10-06 19:21:25.244 13728 13728 V Monotype:     Typeface getFontPathFlipFont - systemFont = /data/mt_fonts/0/Felbridge#Felbridge
+10-06 19:21:25.281 13728 13728 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+10-06 19:21:25.340  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 2.000000
+10-06 19:21:25.434 13728 13728 D ApplicationLoaders: ignored Vulkan layer search path /data/app/com.google.android.gms-2/lib/arm:/data/app/com.google.android.gms-2/base.apk!/lib/armeabi-v7a for namespace 0xec360090
+10-06 19:21:25.685 13728 13728 I DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:310
+10-06 19:21:25.685 13728 13728 I DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 310
+10-06 19:21:25.717 13728 13728 W System  : ClassLoader referenced unknown path: 
+10-06 19:21:25.718 13728 13728 D ApplicationLoaders: ignored Vulkan layer search path /data/app/com.google.android.gms-2/lib/arm:/data/app/com.google.android.gms-2/base.apk!/lib/armeabi-v7a for namespace 0xec3600d0
+10-06 19:21:25.844  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 3.000000
+10-06 19:21:25.949 13728 13728 W System  : ClassLoader referenced unknown path: /data/user_de/0/com.google.android.gms/app_chimera/m/00000000/n/armeabi-v7a
+10-06 19:21:25.949 13728 13728 W System  : ClassLoader referenced unknown path: /data/user_de/0/com.google.android.gms/app_chimera/m/00000000/n/armeabi
+10-06 19:21:25.970 13728 13728 D DynamitePackage: Instantiated singleton DynamitePackage.
+10-06 19:21:25.970 13728 13728 D DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+10-06 19:21:26.002 13748 13748 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-06 19:21:26.027 13748 13748 D AndroidRuntime: CheckJNI is OFF
+10-06 19:21:26.032  1444  1885 D qdlights: vled_off by idx=2
+10-06 19:21:26.033  1444  1885 D qdlights: [LED] set_speaker_light_locked mode 0, colorRGB=00000000, onMS=0, offMS=0
+10-06 19:21:26.033  1444  1885 D qdlights: vled_on by idx=2, activeIdx=0
+10-06 19:21:26.033  1444  1885 D qdlights: [LED] set_speaker_light_locked mode 0, colorRGB=FFFF7F00, onMS=0, offMS=0
+10-06 19:21:26.035  1920  1920 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+10-06 19:21:26.036  1920  1920 D KeyguardUpdateMonitor: handleBatteryUpdate
+--------- beginning of system
+10-06 19:21:26.036  1920  1920 D PowerUI : oldTemp=320, mTemp=322
+10-06 19:21:26.036  1920  1920 D PowerUI : findUsbOtg =false,supportReverseCharging =0
+10-06 19:21:26.041  2701  2793 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+10-06 19:21:26.046  2124  2124 D TelephonyProvider: query: url=content://telephony/siminfo, projectionIn=null, selection=sim_id>=0selectionArgs=null, sort=null
+10-06 19:21:26.047  2124  2124 D TelephonyProvider: query(): match = 7
+10-06 19:21:26.057  2219  2219 D PowerSaverService: battery_soh = 0
+10-06 19:21:26.082  2124  2124 D [TELESERVICE][AsusPhoneUtils]: isVerizon(): ret = false
+10-06 19:21:26.085  1920  1920 V ReflectionMethods: ========ReflectionMethods.getPackBatteryPresent = true ===============
+10-06 19:21:26.085  1920  1920 V ReflectionMethods: ========ReflectionMethods.getPackBatteryLevel = true ===============
+10-06 19:21:26.085  1920  1920 V ReflectionMethods: ========ReflectionMethods.getPackBatteryStatus = true ===============
+10-06 19:21:26.085  1920  1920 V ReflectionMethods: ========ReflectionMethods.getPackBatteryType = true ===============
+10-06 19:21:26.096  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 1.000000
+10-06 19:21:26.096  2124  2124 I LoadedApk: Performing receive of Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }, receiver=com.qualcomm.ims.vt.LowBatteryHandler$1@6f7646, duration=59
+10-06 19:21:26.123 12881 12881 W pool-128-thread: type=1400 audit(0.0:36760): avc: denied { read } for name="block" dev="sysfs" ino=16816 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+10-06 19:21:26.125 31391 12881 W System.err: java.lang.NullPointerException
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.Objects.requireNonNull(Objects.java:203)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.Arrays$ArrayList.<init>(Arrays.java:3826)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.Arrays.asList(Arrays.java:3813)
+10-06 19:21:26.125 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.CpuText.m(SourceFile:1470)
+10-06 19:21:26.125 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.CpuText.b(SourceFile:864)
+10-06 19:21:26.125 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.h.run(SourceFile:421)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:278)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:273)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+10-06 19:21:26.125 31391 12881 W System.err: 	at java.lang.Thread.run(Thread.java:761)
+10-06 19:21:26.226 13728 13757 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-06 19:21:26.287 13728 13762 I FA      : App measurement is starting up, version: 11910
+10-06 19:21:26.287 13728 13762 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+10-06 19:21:26.287 13728 13762 I FA      : To enable faster debug mode event logging run:
+10-06 19:21:26.287 13728 13762 I FA      :   adb shell setprop debug.firebase.analytics.app com.cmcm.freevpn
+10-06 19:21:26.327 13728 13762 W FA      : Failed to retrieve Firebase Instance Id
+10-06 19:21:26.328 13728 13766 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+10-06 19:21:26.330 13728 13728 D native_ad: !!! initialize version: 2.2.8.010514
+10-06 19:21:26.344 13728 13762 W FA      : Failed to retrieve Firebase Instance Id
+10-06 19:21:26.347  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 2.000000
+10-06 19:21:26.375 13748 13748 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+10-06 19:21:26.383 13728 13761 I VPN_STATE: updateState: state=NOPROCESS log=
+10-06 19:21:26.407 13728 13762 W FA      : Failed to retrieve Firebase Instance Id
+10-06 19:21:26.421 13748 13748 I Radio-JNI: register_android_hardware_Radio DONE
+10-06 19:21:26.427 13728 13762 W FA      : Failed to retrieve Firebase Instance Id
+10-06 19:21:26.466 13748 13748 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+10-06 19:21:26.475 13728 13762 W FA      : Failed to retrieve Firebase Instance Id
+10-06 19:21:26.487  1444  1462 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.ads.identifier.service.START pkg=com.google.android.gms } U=0: not found
+10-06 19:21:26.490 13728 13785 W System.err: java.io.IOException: Google Play connection failed
+10-06 19:21:26.491 13728 13785 W System.err: 	at nativesdk.ad.common.e.l.a(AdvertisingIdClient.java:52)
+10-06 19:21:26.494 13728 13785 W System.err: 	at nativesdk.ad.common.e.h.f(InitTask.java:29)
+10-06 19:21:26.494 13728 13785 W System.err: 	at nativesdk.ad.common.e.h.a(InitTask.java:16)
+10-06 19:21:26.494 13728 13785 W System.err: 	at nativesdk.ad.common.libs.task.PoolAsyncTask$1.call(PoolAsyncTask.java:289)
+10-06 19:21:26.494 13728 13785 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+10-06 19:21:26.494 13728 13785 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+10-06 19:21:26.494 13728 13785 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+10-06 19:21:26.494 13728 13785 W System.err: 	at java.lang.Thread.run(Thread.java:761)
+10-06 19:21:26.497  1444  3688 I ActivityManager: START u0 {flg=0x10000000 cmp=com.YourCompany.BasilicaSudak_UE4/com.epicgames.ue4.SplashActivity} from uid 2000 on display 0
+10-06 19:21:26.515 13728 13762 W FA      : Failed to retrieve Firebase Instance Id
+10-06 19:21:26.518 13728 13762 I FA      : Tag Manager is not found and thus will not be used
+10-06 19:21:26.538 13728 13762 W FA      : Failed to retrieve Firebase Instance Id
+10-06 19:21:26.567  1444  3688 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+10-06 19:21:26.570 13748 13748 D AndroidRuntime: Shutting down VM
+10-06 19:21:26.577  1444  2822 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.ads.identifier.service.START pkg=com.google.android.gms } U=0: not found
+10-06 19:21:26.599  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 1.000000
+10-06 19:21:26.618  1444  2042 D ActivityManager: [MemInfo] Process does not exist before starting ActivityRecord{f0be23c u0 com.YourCompany.BasilicaSudak_UE4/com.epicgames.ue4.SplashActivity t5290}. System free memory=551739392
+10-06 19:21:26.634  1444  2042 I ActivityManager: Start proc 13798:com.YourCompany.BasilicaSudak_UE4/u0a391 for activity com.YourCompany.BasilicaSudak_UE4/com.epicgames.ue4.SplashActivity duration: 17
+10-06 19:21:26.635 13798 13798 I art     : Late-enabling -Xcheck:jni
+10-06 19:21:26.640  1444  2042 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@eae4227
+10-06 19:21:26.641  1444  2042 D ActivityManager: [MemInfo] Process does not exist before starting ActivityRecord{f0be23c u0 com.YourCompany.BasilicaSudak_UE4/com.epicgames.ue4.SplashActivity t5290}. System free memory=557088768
+10-06 19:21:26.646  1444  1535 W WindowOrientationListener: setCurrentRotation(1)
+10-06 19:21:26.703 13796 13796 W ps      : type=1400 audit(0.0:36761): avc: denied { getattr } for path="/proc/377" dev="proc" ino=96943354 scontext=u:r:shell:s0 tcontext=u:r:logd:s0 tclass=dir permissive=0
+10-06 19:21:26.733  1444  1535 D WindowManager: adjustConfigurationLw, config:{0 0.0 ?mcc?mnc ?localeList ?layoutDir sw423dp w752dp h399dp 408dpi nrml long land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-06 19:21:26.734  1444  1535 I ActivityManager: Config changes=480 {0 0.85 250mcc1mnc [en_US,ru_RU,ja_JP,uk_UA] ldltr sw423dp w752dp h399dp 408dpi nrml long land finger -keyb/v/h -nav/h s.19}
+10-06 19:21:26.760  1444  1535 D WindowManager: adjustConfigurationLw, config:{0 0.85 250mcc1mnc [en_US,ru_RU,ja_JP,uk_UA] ldltr sw423dp w752dp h399dp 408dpi nrml long land finger -keyb/v/h -nav/v s.19} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-06 19:21:26.811 18405 18405 D Launcher.Utilities: isPhone= true
+10-06 19:21:26.844 18405 18405 D FontUtils: getSavedDisplaySettingsFontScale: 0.85
+10-06 19:21:26.851  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 3.000000
+10-06 19:21:26.856  1444 25746 D WindowManager: adjustConfigurationLw, config:{0 0.85 250mcc1mnc [en_US,ru_RU,ja_JP,uk_UA] ldltr sw423dp w752dp h399dp 408dpi nrml long land finger -keyb/v/h -nav/v s.19} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-06 19:21:26.892  1444  1444 I LoadedApk: Performing receive of Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010 }, receiver=com.android.server.connectivity.Tethering$StateReceiver@7b46a8f, duration=63
+10-06 19:21:26.918  1444  1444 D Telecom : [TELECOM][AsusTelecomReceiver]: AsusTelecomReceiver: onReceive()...action = android.intent.action.CONFIGURATION_CHANGED
+10-06 19:21:26.918  1444  1444 I DeviceIdleController: becomeActiveLocked, reason = screen
+10-06 19:21:26.942  1444  1786 I InputReader: Reconfiguring input devices.  changes=0x00000004
+10-06 19:21:26.943  1444  1786 I InputReader: Device reconfigured: id=5, name='goodix-ts', size 1080x1920, orientation 1, mode 1, display id 0
+10-06 19:21:26.992  1444  1709 D qti_sensors_hal: [Sensor_HAL] Acc: X: 5.052353 Y: -0.361359 Z: 8.457230 
+10-06 19:21:27.010 13321 13321 I Watcher_AppUti: Sending:android.appwidget.action.APPWIDGET_UPDATE
+10-06 19:21:27.060 18405 18405 D FontUtils: getSavedDisplaySettingsFontScale: 0.85
+10-06 19:21:27.060 18405 18405 D FontUtils: checkAndGetSavedFontScale, Latest saved displaySettings fontscale: 0.85, current displaySettings fontscale: 0.85, AsusEzmodeStatus(0 is disabled): 0
+10-06 19:21:27.061 18405 18405 D FontUtils: current Launcher saved fontscale: 0.85
+10-06 19:21:27.063 18405 18405 I LauncherApplication: isSystemFontChanged: false
+10-06 19:21:27.063 18405 18405 D Launcher.Utilities: Screen density does not change, it's not display size change.
+10-06 19:21:27.063 18405 18405 D LauncherLog: LauncherModel changeWorkThread - set sWorker : sPHONEWorkerThread
+10-06 19:21:27.064 18405 18405 D LauncherLog: LauncherApplication onConfigurationChanged - OldConfigScreenDpi : 0 , NewConfigScreenDpi : 408
+10-06 19:21:27.064 18405 18405 D LauncherLog: LauncherProvier - getDatabase: normal-launcher.db
+10-06 19:21:27.065 18405 18405 D Launcher.Model: onReceive intent=Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010 }
+10-06 19:21:27.103  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 1.000000
+10-06 19:21:27.123 12881 12881 W pool-128-thread: type=1400 audit(0.0:36762): avc: denied { read } for name="block" dev="sysfs" ino=16816 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+10-06 19:21:27.129 31391 12881 W System.err: java.lang.NullPointerException
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.Objects.requireNonNull(Objects.java:203)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.Arrays$ArrayList.<init>(Arrays.java:3826)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.Arrays.asList(Arrays.java:3813)
+10-06 19:21:27.129 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.CpuText.m(SourceFile:1470)
+10-06 19:21:27.129 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.CpuText.b(SourceFile:864)
+10-06 19:21:27.129 31391 12881 W System.err: 	at ds.cpuoverlay.ui.widget.h.run(SourceFile:421)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:278)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:273)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+10-06 19:21:27.129 31391 12881 W System.err: 	at java.lang.Thread.run(Thread.java:761)
+10-06 19:21:27.162  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.218 31391 31391 D #       : w=1920 h=1080
+10-06 19:21:27.233  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.269  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.269  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.286 13798 13798 V Monotype: SetAppTypeFace- try to flip, app = com.YourCompany.BasilicaSudak_UE4
+10-06 19:21:27.292 13798 13798 V Monotype:     Typeface getFontPathFlipFont - systemFont = /data/mt_fonts/0/Felbridge#Felbridge
+10-06 19:21:27.320   823   823 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+10-06 19:21:27.321   823   823 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+10-06 19:21:27.321   823   823 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+10-06 19:21:27.322   823   823 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+10-06 19:21:27.322   823   823 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+10-06 19:21:27.322   823   823 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+10-06 19:21:27.323   823   823 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU4 [P:1] (banned)
+10-06 19:21:27.354  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 3.000000
+10-06 19:21:27.380  1920  1920 D keyguard: AsusDeviceModeManager:DB EasyMode: false  isEasyMode: false
+10-06 19:21:27.380  1920  1920 D keyguard: AsusEasyModeManager:shouldDoEffect KeyguardVisbile: false, EasyMode: false, Expanded: false
+10-06 19:21:27.380  1920  1920 D keyguard: AsusEasyModeManager:updateBlurEffect()  should: false mBluring: false
+10-06 19:21:27.392 13798 13798 V Monotype: SetAppTypeFace- try to flip, app = com.YourCompany.BasilicaSudak_UE4
+10-06 19:21:27.392 13798 13798 V Monotype:     Typeface getFontPathFlipFont - systemFont = /data/mt_fonts/0/Felbridge#Felbridge
+10-06 19:21:27.402  1444 24090 I ActivityManager: START u0 {flg=0x10000 cmp=com.YourCompany.BasilicaSudak_UE4/com.epicgames.ue4.GameActivity (has extras)} from uid 10391 on display 0
+10-06 19:21:27.412  1444 24090 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+10-06 19:21:27.423 22011 22011 I PackageParser: com.asus.ime: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+10-06 19:21:27.450  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.450  1920  2248 D NetworkController.MobileSignalController(1): updateTelephonySignalStrength: hasService=true ss=SignalStrength: 21 0 -71 -120 -100 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+10-06 19:21:27.450  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.450  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.450  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.450  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.450  1920  1920 V ReflectionMethods: ========ReflectionMethods.isFlipfontSupport = true ===============
+10-06 19:21:27.452  1920  1920 I keyguard: AsusMediator:onConfigurationChanged:{0 0.85 250mcc1mnc [en_US,ru_RU,ja_JP,uk_UA] ldltr sw423dp w752dp h399dp 408dpi nrml long land finger -keyb/v/h -nav/h s.19}
+10-06 19:21:27.453  2124  5061 D PhoneInterfaceManager: isWifiCallingAvailable: sub Id : 1
+10-06 19:21:27.454  1920  2248 D NetworkController.MobileSignalController(1): isWifiCallingAvailable=false
+10-06 19:21:27.455  1920  1920 I keyguard: AsusSlideshowManager:onConfigurationChanged
+10-06 19:21:27.455  1920  1920 I keyguard: AsusClockContainer_L:uninit
+10-06 19:21:27.459  1920  1920 I keyguard: AsusClockContainer_L:stopListening
+10-06 19:21:27.463  1920  1920 I keyguard: AsusMediator:unregisterBarClockShowCallback callback:com.asus.keyguard.module.clock.ui.AsusWeatherClockContainer$1@785a064
+10-06 19:21:27.467  1920  1920 I keyguard: TargetContainer:uninitDrag
+10-06 19:21:27.467  1920  1920 W keyguard: AnimationTargetContainer:reset mState:READY
+10-06 19:21:27.468  2124  3631 D PhoneInterfaceManager: isVolteAvailable: sub Id : 1
+10-06 19:21:27.468  1920  2248 V ReflectionMethods: ========ReflectionMethods.getVolteAvailable = false ===============
+10-06 19:21:27.468  1920  1920 I keyguard: AsusClockContainer_L:onInit
+10-06 19:21:27.470  2124  2667 D PhoneInterfaceManager: isVideoTelephonyAvailable: sub Id : 1
+10-06 19:21:27.470  1920  2248 V ReflectionMethods: ========ReflectionMethods.getVideoTelephonyAvailable = false ===============
+10-06 19:21:27.474  1920  1920 I keyguard: AsusFirstKGUnlockedMonitor:getSettingsForFirstKGUnlocked()  settings: true
+10-06 19:21:27.483  1920  1920 I keyguard: AsusClockContainer_L:create mAppWidgetHost
+10-06 19:21:27.489  1920  1920 I keyguard: AsusClockContainer_L:startListening
+10-06 19:21:27.490  1920  1920 D keyguard: AsusClockContainer_L:onFinishInflate: mWeatherWidgetIdInSettings=4
+10-06 19:21:27.492  1920  1920 I keyguard: AsusLSShortcutContainer_0_0_0_0_0_0_0_0_0_0_0_0_0_0:updateActive posType:0 active:false
+10-06 19:21:27.492  1920  1920 I keyguard: TargetContainer:onPathDataChanged mPathKey:clock data:null
+10-06 19:21:27.492  1920  1920 I keyguard: AsusMediator:registerBarClockShowCallback callback:com.asus.keyguard.module.clock.ui.AsusWeatherClockContainer$1@f6a85a9
+10-06 19:21:27.493  1920  1920 I keyguard: AsusLSShortcutContainer_0_0_0_0_0_0_0_0_0_0_0_0_0_0:onThemeChanged:0
+10-06 19:21:27.493  1920  1920 I keyguard: AsusLSShortcutContainer_0_0_0_0_0_0_0_0_0_0_0_0_0_0:updateActive posType:0 active:false
+10-06 19:21:27.493  1920  1920 I keyguard: AsusLSShortcutContainer_0_0_0_0_0_0_0_0_0_0_0_0_0_0:updateActive posType:0 active:false
+10-06 19:21:27.493  1920  1920 I keyguard: TargetContainer:init
+10-06 19:21:27.497  1920  1920 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@4bcd365
+10-06 19:21:27.497  1920  1920 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@1ecf83a
+10-06 19:21:27.519 22011 22011 I PackageParser: com.asus.ime: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+10-06 19:21:27.522  1920  1920 I keyguard: TargetContainer:uninitDrag
+10-06 19:21:27.522  1920  1920 W keyguard: AnimationTargetContainer:reset mState:READY
+10-06 19:21:27.531  1920  1920 I keyguard: TargetContainer:init
+10-06 19:21:27.531  1920  1920 I keyguard: AsusLSShortcut:updateUI app:android.graphics.drawable.VectorDrawable@8f65492 background:null color:-1
+10-06 19:21:27.592  1920  1920 I keyguard: AsusLSShortcut:setAppInfo:Camera
+10-06 19:21:27.608  1444  1709 D qti_sensors_hal: [Sensor_HAL] sensor_data.light: 1.000000
+10-06 19:21:27.612  1444 19477 D ActivityManager: [MemInfo] Process already exists before starting ActivityRecord{72a526c u0 com.YourCompany.BasilicaSudak_UE4/com.epicgames.ue4.GameActivity t5290}. System free memory=592474112
+10-06 19:21:27.613  1444 19477 D WindowManager: adjustConfigurationLw, config:{0 0.85 250mcc1mnc [en_US,ru_RU,ja_JP,uk_UA] ldltr sw423dp w752dp h399dp 408dpi nrml long land finger -keyb/v/h -nav/v s.19} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-06 19:21:27.616 22011 22011 I PackageParser: com.asus.ime: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+10-06 19:21:27.625  1920  1920 I keyguard: TargetContainer:onPathDataChanged mPathKey:null data:null
+10-06 19:21:27.625  1444  1535 I WindowManager: Screen frozen for +978ms due to Window{7ceae7d u0 Starting com.YourCompany.BasilicaSudak_UE4}
+10-06 19:21:27.665 13798 13798 W linker  : /data/app/com.YourCompany.BasilicaSudak_UE4-1/lib/arm/libOVRPlugin.so: is missing DT_SONAME will use basename as a replacement: "libOVRPlugin.so"
+10-06 19:21:27.665  1920 13818 D skia    : --- SkAndroidCodec::NewFromStream returned null
+10-06 19:21:27.666  1920 13818 D skia    : --- SkAndroidCodec::NewFromStream returned null
+10-06 19:21:27.718 22011 22011 I PackageParser: com.asus.ime: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+10-06 19:21:27.730 22011 22011 D ToolbarItemManager: load tb str : 11;3;5;2;4;15;14;6;13;1;7
+10-06 19:21:27.746 22011 22011 D XT9IME  : onStartInput isInputViewShown() = false isShowInputRequested() = false
+10-06 19:21:27.763 13798 13798 D OVRPlugin: JNI_OnLoad
+10-06 19:21:27.784 22011 22011 D ToolbarItemManager: load tb str : 11;3;5;2;4;15;14;6;13;1;7
+10-06 19:21:27.864  1444  2894 I ActivityManager: Process com.estrongs.android.pop:local (pid 13425) has died
+10-06 19:21:27.864  1444  2894 D ActivityManager: cleanUpApplicationRecord -- 13425
+10-06 19:21:27.865   482   482 E lowmemorykiller: Error writing /proc/13342/oom_score_adj; errno=22
+10-06 19:21:27.865  1444  2894 W ActivityManager: Scheduling restart of crashed service com.estrongs.android.pop/com.android.apps.pros.LocalCService in 1000ms
+10-06 19:21:27.882  1444  2895 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=3145, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@f960317)
+10-06 19:21:27.891   482   482 E lowmemorykiller: Error opening /proc/13662/oom_score_adj; errno=2
+10-06 19:21:27.892   482   482 E lowmemorykiller: Error opening /proc/13369/oom_score_adj; errno=2
+10-06 19:21:27.892  1444 10060 I ActivityManager: Process com.android.vending (pid 13369) has died
+10-06 19:21:27.892  1444 10060 D ActivityManager: cleanUpApplicationRecord -- 13369
+10-06 19:21:27.893  1444 10060 W ActivityManager: Scheduling restart of crashed service com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService in 97027ms
+10-06 19:21:27.904  1444  2901 I ActivityManager: Process .esfm (pid 13662) has died
+10-06 19:21:27.904  1444  2901 D ActivityManager: cleanUpApplicationRecord -- 13662
+10-06 19:21:27.905  1444  2901 W ActivityManager: Scheduling restart of crashed service com.estrongs.android.pop/com.estrongs.android.scanner.service.FileMonitorService in 107016ms
+10-06 19:21:27.906  1444  1800 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=3145, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-06 19:21:27.909  1444  2894 I ActivityManager: Process com.asus.deskclock:ui (pid 13621) has died
+10-06 19:21:27.909  1444  2894 D ActivityManager: cleanUpApplicationRecord -- 13621

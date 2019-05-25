@@ -1,0 +1,1682 @@
+﻿Log file open, 08/02/18 11:22:35
+LogInit: Display: Running engine for game: BasilicaSudak_UE4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.072233
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +4:00, Platform Override: ''
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogStreaming: Display: Took  0.538s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jul 22 2018 18:09:30
+LogInit: Compiled with Clang: 5.0.0 (tags/RELEASE_500/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: /media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.02-08.22.36:937][  0]LogInit: Initializing SDL.
+[2018.08.02-08.22.37:300][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.08.02-08.22.37:300][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.08.02-08.22.37:300][  0]LogInit: Using SDL video driver 'x11'
+[2018.08.02-08.22.37:300][  0]LogInit: Display metrics:
+[2018.08.02-08.22.37:300][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2018.08.02-08.22.37:300][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2018.08.02-08.22.37:300][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.08.02-08.22.37:300][  0]LogInit:     Left=0, Top=0, Right=1920, Bottom=1016
+[2018.08.02-08.22.37:300][  0]LogInit:   VirtualDisplayRect:
+[2018.08.02-08.22.37:300][  0]LogInit:     Left=0, Top=0, Right=3840, Bottom=1080
+[2018.08.02-08.22.37:300][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.08.02-08.22.37:300][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.08.02-08.22.37:300][  0]LogInit:   Number of monitors: 2
+[2018.08.02-08.22.37:300][  0]LogInit:     Monitor 0
+[2018.08.02-08.22.37:300][  0]LogInit:       Name: PHL 227E6 22"
+[2018.08.02-08.22.37:300][  0]LogInit:       ID: display0
+[2018.08.02-08.22.37:300][  0]LogInit:       NativeWidth: 1920
+[2018.08.02-08.22.37:300][  0]LogInit:       NativeHeight: 1080
+[2018.08.02-08.22.37:300][  0]LogInit:       bIsPrimary: true
+[2018.08.02-08.22.37:300][  0]LogInit:     Monitor 1
+[2018.08.02-08.22.37:300][  0]LogInit:       Name: VE228 22"
+[2018.08.02-08.22.37:300][  0]LogInit:       ID: display1
+[2018.08.02-08.22.37:300][  0]LogInit:       NativeWidth: 1920
+[2018.08.02-08.22.37:300][  0]LogInit:       NativeHeight: 1080
+[2018.08.02-08.22.37:300][  0]LogInit:       bIsPrimary: false
+[2018.08.02-08.22.37:300][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.08.02-08.22.37:300][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.08.02-08.22.37:308][  0]LogHAL: Display: Platform has ~ 4 GB [16782000128 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.02-08.22.37:308][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.02-08.22.37:308][  0]LogInit: Using custom *.sym to symbolicate
+[2018.08.02-08.22.37:308][  0]LogInit: Unix hardware info:
+[2018.08.02-08.22.37:308][  0]LogInit:  - we are the first instance of this executable
+[2018.08.02-08.22.37:308][  0]LogInit:  - this process' id (pid) is 14644, parent process' id (ppid) is 1
+[2018.08.02-08.22.37:308][  0]LogInit:  - we are not running under debugger
+[2018.08.02-08.22.37:308][  0]LogInit:  - machine network name is 'MicrolabHS'
+[2018.08.02-08.22.37:308][  0]LogInit:  - user name is 'scad' (scad)
+[2018.08.02-08.22.37:308][  0]LogInit:  - we're logged in locally
+[2018.08.02-08.22.37:309][  0]LogInit:  - we're running with rendering
+[2018.08.02-08.22.37:309][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz' (signature: 0x506E3)
+[2018.08.02-08.22.37:309][  0]LogInit:  - Number of physical cores available for the process: 2
+[2018.08.02-08.22.37:309][  0]LogInit:  - Number of logical cores available for the process: 4
+[2018.08.02-08.22.37:309][  0]LogInit:  - Cache line size: 64
+[2018.08.02-08.22.37:309][  0]LogInit:  - Memory allocator used: binned2
+[2018.08.02-08.22.37:309][  0]LogCore: Benchmarking clocks:
+[2018.08.02-08.22.37:309][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 50276390 (50276K, 50M) calls per second without zero deltas.
+[2018.08.02-08.22.37:309][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 52997479 (52997K, 53M) calls per second without zero deltas.
+[2018.08.02-08.22.37:309][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 3839260 (3839K, 4M) calls per second without zero deltas.
+[2018.08.02-08.22.37:309][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 175891245 (175891K, 176M) calls per second with 99.999852% zero deltas.
+[2018.08.02-08.22.37:309][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.08.02-08.22.37:309][  0]LogInit: Unix-specific commandline switches:
+[2018.08.02-08.22.37:309][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.08.02-08.22.37:309][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.08.02-08.22.37:309][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.08.02-08.22.37:309][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.08.02-08.22.37:309][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2018.08.02-08.22.37:309][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.08.02-08.22.37:309][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.08.02-08.22.37:309][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.08.02-08.22.37:309][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (16004 MB, 16388672 KB, 16782000128 bytes)
+[2018.08.02-08.22.37:426][  0]LogInit: Using OS detected language (en-US).
+[2018.08.02-08.22.37:426][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.02-08.22.37:426][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.02-08.22.37:801][  0]LogStreaming: Display: Took  0.375s to InitEngineTextLocalization.
+[2018.08.02-08.22.38:047][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.02-08.22.38:047][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.02-08.22.39:340][  0]LogRHI: Initializing OpenGL RHI
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_RENDERER: GeForce GTX 1050 Ti/PCIe/SSE2
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 390.77
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2018.08.02-08.22.39:340][  0]LogRHI: OpenGL Extensions:
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_base_instance
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_bindless_texture
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_clear_texture
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_clip_control
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_color_buffer_float
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_compute_shader
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_copy_image
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_cull_distance
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_debug_output
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_depth_texture
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_derivative_control
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.08.02-08.22.39:340][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_fragment_program
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_geometry_shader4
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_gl_spirv
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_imaging
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_multi_bind
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_multisample
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_multitexture
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_occlusion_query
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_point_parameters
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_point_sprite
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_robustness
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sample_locations
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sample_shading
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_clock
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_objects
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_precision
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shading_language_100
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shading_language_include
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_shadow
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sparse_buffer
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sparse_texture
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sparse_texture2
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_spirv_extensions
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_sync
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_compression
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_cube_map
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_env_add
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_env_combine
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_float
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_gather
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_rg
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_storage
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_texture_view
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_timer_query
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_transpose_matrix
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_program
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_viewport_array
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ARB_window_pos
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ATI_draw_buffers
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ATI_texture_float
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_S3_s3tc
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_texture_env_add
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_abgr
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_bgra
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_bindable_uniform
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_blend_color
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_blend_func_separate
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_blend_minmax
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_blend_subtract
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_Cg_shader
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_direct_state_access
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_draw_range_elements
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_fog_coord
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_framebuffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_geometry_shader4
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_gpu_shader4
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_packed_float
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_packed_pixels
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_point_parameters
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_raster_multisample
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_rescale_normal
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_secondary_color
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_separate_specular_color
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_shadow_funcs
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_sparse_texture2
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_stencil_two_side
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_stencil_wrap
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_texture3D
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_texture_array
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2018.08.02-08.22.39:341][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_cube_map
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_env_combine
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_integer
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_lod
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_object
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_storage
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_timer_query
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_transform_feedback2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_vertex_array
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_window_rectangles
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_x11_sync_object
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_import_sync_object
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_KHR_debug
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_memory_object
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_memory_object_fd
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_KHR_no_error
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_KHR_robustness
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_semaphore
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_EXT_semaphore_fd
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_KTX_buffer_region
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_bindless_texture
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NVX_blend_equation_advanced_multi_draw_buffers
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_blend_minmax_factor
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_blend_square
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_clip_space_w_scaling
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_command_list
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_compute_program5
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_conditional_render
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_conservative_raster
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_conservative_raster_pre_snap_triangles
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_copy_image
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_depth_buffer_float
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_depth_clamp
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_draw_texture
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_explicit_multisample
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fence
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fill_rectangle
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_float_buffer
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fog_distance
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fragment_program
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fragment_program_option
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fragment_program2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_geometry_shader4
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_gpu_program4
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_gpu_program4_1
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_gpu_program5
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_gpu_shader5
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_half_float
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_light_max_exponent
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_multisample_coverage
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_occlusion_query
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_path_rendering
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_pixel_data_range
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_point_sprite
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_primitive_restart
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_query_resource
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_query_resource_tag
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_register_combiners
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_register_combiners2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_sample_locations
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_shader_atomic_float
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_shader_atomic_float64
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_shader_buffer_load
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_stereo_view_rendering
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texgen_reflection
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_barrier
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_env_combine4
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_multisample
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_rectangle
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_rectangle_compressed
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_shader
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_shader2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_texture_shader3
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_transform_feedback
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_transform_feedback2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vdpau_interop
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_array_range
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_array_range2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_program
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_program1_1
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_program2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_program2_option
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_vertex_program3
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_viewport_array2
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NV_viewport_swizzle
+[2018.08.02-08.22.39:342][  0]LogRHI:   GL_NVX_conditional_render
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_NVX_nvenc_interop
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_NV_shader_thread_group
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_SGIS_texture_lod
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_SGIX_depth_texture
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_SGIX_shadow
+[2018.08.02-08.22.39:343][  0]LogRHI:   GL_SUN_slice_accum
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 32768
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 16384
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 32768
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.08.02-08.22.39:344][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.08.02-08.22.39:344][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.08.02-08.22.39:348][  0]LogRHI: Texture pool is 2867 MB (70% of 4096 MB)
+[2018.08.02-08.22.39:348][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Intermediate/Shaders/WorkingDirectory/14644/).
+[2018.08.02-08.22.39:348][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Intermediate/Shaders/tmp/0003522708D5F86A4197AFEA44FCB59E/'.
+[2018.08.02-08.22.39:348][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.02-08.22.40:780][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.02-08.22.40:888][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.02-08.22.41:008][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.02-08.22.41:118][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.02-08.22.41:217][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.02-08.22.41:317][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.02-08.22.41:470][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.08.02-08.22.41:817][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.02-08.22.41:817][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.08.02-08.22.41:818][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.02-08.22.41:818][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.02-08.22.41:818][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.02-08.22.41:818][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.08.02-08.22.41:819][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.08.02-08.22.41:819][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.02-08.22.41:819][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.02-08.22.41:845][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.08.02-08.22.41:854][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.02-08.22.41:854][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.08.02-08.22.41:925][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2018.08.02-08.22.42:233][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.08.02-08.22.42:596][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.02-08.22.42:596][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.02-08.22.42:596][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.02-08.22.42:596][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.08.02-08.22.42:596][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.02-08.22.42:596][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.08.02-08.22.42:619][  0]LogNetVersion: BasilicaSudak_UE4 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1314248602)
+[2018.08.02-08.22.43:284][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.052278 seconds
+[2018.08.02-08.22.43:296][  0]LogUObjectArray: 37547 objects as part of root set at end of initial load.
+[2018.08.02-08.22.43:296][  0]LogUObjectAllocator: 6509480 out of 0 bytes used by permanent object pool.
+[2018.08.02-08.22.43:296][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.02-08.22.43:450][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.08.02-08.22.44:208][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.02-08.22.44:208][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.02-08.22.44:209][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:209][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:209][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:209][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:209][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.02-08.22.44:210][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.02-08.22.44:210][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:210][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:210][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:210][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:210][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.02-08.22.44:210][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.02-08.22.44:211][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:211][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:211][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:211][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:211][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.02-08.22.44:211][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.02-08.22.44:212][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:212][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:212][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.02-08.22.44:212][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.02-08.22.44:216][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.02-08.22.44:216][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.02-08.22.44:216][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:216][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:216][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:216][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:217][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.02-08.22.44:217][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.02-08.22.44:217][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:217][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:217][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:217][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:218][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.08.02-08.22.44:218][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.08.02-08.22.44:218][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:218][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:218][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:218][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:218][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.08.02-08.22.44:219][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.08.02-08.22.44:219][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:219][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:219][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:219][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:220][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.02-08.22.44:220][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.02-08.22.44:220][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:220][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:220][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:220][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:220][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.02-08.22.44:221][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.02-08.22.44:221][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:221][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:221][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:221][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:221][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.08.02-08.22.44:221][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.08.02-08.22.44:222][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:222][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:222][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:222][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:222][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.08.02-08.22.44:222][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.08.02-08.22.44:223][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:223][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:223][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:223][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:223][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.08.02-08.22.44:223][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.08.02-08.22.44:224][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:224][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:224][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:224][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:224][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.02-08.22.44:224][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.02-08.22.44:225][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:225][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:225][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:225][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:225][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.02-08.22.44:225][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.02-08.22.44:226][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:226][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:226][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:226][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:226][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.08.02-08.22.44:226][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.08.02-08.22.44:227][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:227][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:227][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:227][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:227][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.08.02-08.22.44:227][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.08.02-08.22.44:228][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:228][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:228][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:228][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:228][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.02-08.22.44:228][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.02-08.22.44:229][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:229][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:229][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:229][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:229][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.02-08.22.44:229][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.02-08.22.44:229][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:230][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:230][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:230][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:230][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.08.02-08.22.44:230][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.08.02-08.22.44:230][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:230][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:231][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:231][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:231][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.08.02-08.22.44:231][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.08.02-08.22.44:231][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:231][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:232][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:232][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:232][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.08.02-08.22.44:232][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.08.02-08.22.44:232][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:232][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.44:233][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.02-08.22.44:233][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.02-08.22.47:189][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.02-08.22.47:198][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.02-08.22.51:742][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.02-08.22.52:035][  0]SourceControl: Source control is disabled
+[2018.08.02-08.22.52:036][  0]SourceControl: Source control is disabled
+[2018.08.02-08.22.52:135][  0]SourceControl: Source control is disabled
+[2018.08.02-08.22.52:794][  0]SourceControl: Source control is disabled
+[2018.08.02-08.22.52:995][  0]LogEngine: Initializing Engine...
+[2018.08.02-08.22.52:996][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.08.02-08.22.52:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.02-08.22.52:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.02-08.22.52:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.02-08.22.52:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.02-08.22.53:330][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.02-08.22.53:660][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.02-08.22.53:669][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.22.53:669][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.22.53:669][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.22.53:669][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.22.53:669][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.22.53:669][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.22.53:669][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.22.53:670][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.22.53:675][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.22.53:731][  0]LogInit: FAudioDevice initialized.
+[2018.08.02-08.22.53:732][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.02-08.22.53:772][  0]LogDerivedDataCache: Saved boot cache 0.04s 84MB ../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/DerivedDataCache/Boot.ddc.
+[2018.08.02-08.22.54:033][  0]LogInit: Texture streaming: Enabled
+[2018.08.02-08.22.54:068][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.02-08.22.54:420][  0]LogInit: Transaction tracking system initialized
+[2018.08.02-08.22.55:146][  0]BlueprintLog: New page: Editor Load
+[2018.08.02-08.22.57:127][  0]LocalizationService: Localization service is disabled
+[2018.08.02-08.22.58:971][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/' took 0.00s
+[2018.08.02-08.22.58:971][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.02-08.22.58:971][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.02-08.22.58:971][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.02-08.22.58:971][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.02-08.22.58:971][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.02-08.22.58:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.02-08.22.58:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.02-08.23.01:244][  0]SourceControl: Source control is disabled
+[2018.08.02-08.23.01:245][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.02-08.23.01:253][  0]LightingResults: New page: Lighting Build
+[2018.08.02-08.23.01:320][  0]MapCheck: New page: Map Check
+[2018.08.02-08.23.01:320][  0]LightingResults: New page: Lighting Build
+[2018.08.02-08.23.01:619][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.23.01:625][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.02-08.23.01:648][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.02-08.23.01:666][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 17.938ms to complete.
+[2018.08.02-08.23.01:666][  0]LogFileHelpers: Loading map 'Template_Default' took 0.421
+[2018.08.02-08.23.01:724][  0]LogLinux: Scale at X=320.000000, Y=148.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.23.01:724][  0]LogLinux: Scale at X=965.000000, Y=513.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.23.01:740][  0]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.23.01:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.23.01:771][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.23.01:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.23.01:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.23.01:790][  0]LogCollectionManager: Loaded 0 collections in 0.002031 seconds
+[2018.08.02-08.23.01:822][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Collections/' took 0.00s
+[2018.08.02-08.23.01:822][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Developers/scad/Collections/' took 0.00s
+[2018.08.02-08.23.01:822][  0]LogFileCache: Scanning file cache for directory '/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Collections/' took 0.00s
+[2018.08.02-08.23.01:822][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2545 classes and 566 folders.
+[2018.08.02-08.23.01:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.08.02-08.23.02:013][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.02-08.23.02:034][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.02-08.23.02:118][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.08.02-08.23.02:283][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.02-08.23.02:283][  0]LogLoad: (Engine Initialization) Total time: 27.31 seconds
+[2018.08.02-08.23.02:283][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.02-08.23.02:351][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.02-08.23.02:357][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.02-08.23.02:364][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.02-08.23.02:365][  0]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.08.02-08.23.02:633][  0]LogRenderer: Reallocating scene render targets to support 1208x560 Format 10 NumSamples 1 (Frame:1).
+[2018.08.02-08.23.02:829][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.23.02:834][  0]LogInit: Adding external input plugin.
+[2018.08.02-08.23.02:855][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.02-08.23.02:884][  1]LogAssetRegistry: Asset discovery search completed in 20.9587 seconds
+[2018.08.02-08.23.02:885][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.02-08.23.02:885][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000232 seconds (updated 0 objects)
+[2018.08.02-08.23.06:845][465]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.23.07:017][466]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.23.08:173][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.23.08:322][566]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.02-08.23.08:327][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.02-08.23.08:328][566]PIE: New page: PIE session: Untitled_1 (Aug 2, 2018, 3:23:08 PM)
+[2018.08.02-08.23.08:328][566]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.02-08.23.08:331][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002522s)
+[2018.08.02-08.23.08:332][566]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.23.08:332][566]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2018.08.02-08.23.08:332][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003665s)
+[2018.08.02-08.23.08:344][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.23.08:345][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.23.08:345][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.23.08:345][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.23.08:345][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.23.08:345][566]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.23.08:345][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.23.08:346][566]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.23.08:346][566]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.23.08:414][566]LogInit: FAudioDevice initialized.
+[2018.08.02-08.23.08:454][566]LogLoad: Game class is 'GameModeBase'
+[2018.08.02-08.23.08:457][566]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.08.02-11.23.08
+[2018.08.02-08.23.08:458][566]LogWorld: Bringing up level for play took: 0.001357
+[2018.08.02-08.23.08:559][566]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.08.02-08.23.08:560][566]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.233
+[2018.08.02-08.23.19:147][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.23.19:194][810]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.02-08.23.19:246][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.23.19:300][811]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.08.02-08.23.21:564][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.23.51:103][ 54]LogLinux: Scale at X=1801.399902, Y=967.500000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.23.51:158][ 56]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.24.22:124][545]LogLinux: Scale at X=1775.500000, Y=764.500000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.24.22:214][547]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.24.57:599][245]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.02-08.24.57:607][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.02-08.24.57:608][245]PIE: New page: PIE session: Untitled_1 (Aug 2, 2018, 3:24:57 PM)
+[2018.08.02-08.24.57:608][245]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.02-08.24.57:611][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002610s)
+[2018.08.02-08.24.57:611][245]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.24.57:612][245]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2018.08.02-08.24.57:612][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003873s)
+[2018.08.02-08.24.57:625][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.24.57:625][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.24.57:625][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.24.57:625][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.24.57:625][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.24.57:625][245]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.24.57:626][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.24.57:626][245]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.24.57:626][245]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.24.57:692][245]LogInit: FAudioDevice initialized.
+[2018.08.02-08.24.57:727][245]LogLoad: Game class is 'GameModeBase'
+[2018.08.02-08.24.57:728][245]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.08.02-11.24.57
+[2018.08.02-08.24.57:729][245]LogWorld: Bringing up level for play took: 0.000933
+[2018.08.02-08.24.57:730][245]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.123
+[2018.08.02-08.25.06:472][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.25.06:513][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.02-08.25.06:556][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.25.06:579][264]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.08.02-08.25.08:614][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.25.45:320][538]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.02-08.25.45:327][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.02-08.25.45:328][538]PIE: New page: PIE session: Untitled_1 (Aug 2, 2018, 3:25:45 PM)
+[2018.08.02-08.25.45:328][538]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.02-08.25.45:330][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002161s)
+[2018.08.02-08.25.45:331][538]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.25.45:331][538]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.08.02-08.25.45:331][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003354s)
+[2018.08.02-08.25.45:344][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.25.45:344][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.25.45:344][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.25.45:345][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.25.45:345][538]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.25.45:345][538]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.25.45:345][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.25.45:345][538]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.25.45:345][538]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.25.45:412][538]LogInit: FAudioDevice initialized.
+[2018.08.02-08.25.45:451][538]LogLoad: Game class is 'GameModeBase'
+[2018.08.02-08.25.45:452][538]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.08.02-11.25.45
+[2018.08.02-08.25.45:453][538]LogWorld: Bringing up level for play took: 0.001138
+[2018.08.02-08.25.45:455][538]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.128
+[2018.08.02-08.25.48:384][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.25.48:418][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.02-08.25.48:457][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.25.48:502][875]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.08.02-08.25.53:799][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.25.54:293][537]LogSlate: Took 0.023863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.02-08.26.00:868][275]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.02-08.26.00:872][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.02-08.26.00:873][275]PIE: New page: PIE session: Untitled_1 (Aug 2, 2018, 3:26:00 PM)
+[2018.08.02-08.26.00:873][275]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.02-08.26.00:875][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002045s)
+[2018.08.02-08.26.00:876][275]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.26.00:876][275]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2018.08.02-08.26.00:876][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003325s)
+[2018.08.02-08.26.00:892][275]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.26.00:892][275]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.26.00:892][275]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.26.00:892][275]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.26.00:892][275]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.26.00:892][275]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.26.00:892][275]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.26.00:893][275]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.26.00:893][275]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.26.00:986][275]LogInit: FAudioDevice initialized.
+[2018.08.02-08.26.01:106][275]LogLoad: Game class is 'GameModeBase'
+[2018.08.02-08.26.01:107][275]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.08.02-11.26.01
+[2018.08.02-08.26.01:108][275]LogWorld: Bringing up level for play took: 0.001390
+[2018.08.02-08.26.01:110][275]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.238
+[2018.08.02-08.26.04:200][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.26.04:278][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.02-08.26.04:321][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.26.04:336][624]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.08.02-08.26.06:066][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.26.21:759][456]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.02-08.26.21:876][456]LogLinux: Scale at X=1491.000000, Y=702.500000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.26.21:971][456]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.26.22:064][458]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.26.23:415][600]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.02-08.26.23:423][600]LogLinux: Scale at X=1325.000000, Y=640.500000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.26.23:449][600]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.26.23:462][602]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.26.26:892][991]Cmd: SELECT NONE
+[2018.08.02-08.26.28:897][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.26.33:732][687]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.33:732][687]LogEditorTransaction: Undo Clicking on Actors
+[2018.08.02-08.26.33:732][687]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.26.33:733][687]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.26.33:733][687]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.26.33:764][687]LogSlate: Took 0.000054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.02-08.26.33:964][708]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.26.34:420][729]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.34:420][729]LogEditorTransaction: Undo Select None
+[2018.08.02-08.26.35:567][848]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.35:567][848]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.08.02-08.26.35:887][877]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.35:887][877]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.08.02-08.26.36:586][951]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.36:586][951]LogEditorTransaction: Undo Set Location
+[2018.08.02-08.26.37:024][988]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.37:024][988]LogEditorTransaction: Undo Edit Z
+[2018.08.02-08.26.37:312][ 13]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.37:312][ 13]LogEditorTransaction: Undo Clicking on Actors
+[2018.08.02-08.26.37:869][ 69]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.37:869][ 69]LogEditorTransaction: Undo Edit Z
+[2018.08.02-08.26.38:151][ 96]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.38:151][ 96]LogEditorTransaction: Undo Clicking on Actors
+[2018.08.02-08.26.38:522][135]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.38:522][135]LogEditorTransaction: Undo Edit Z
+[2018.08.02-08.26.38:871][170]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.38:871][170]LogEditorTransaction: Undo Reset Location
+[2018.08.02-08.26.39:248][209]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.39:248][209]LogEditorTransaction: Undo Clicking on Actors
+[2018.08.02-08.26.39:619][248]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.39:619][248]LogEditorTransaction: Undo Edit Z
+[2018.08.02-08.26.40:111][297]Cmd: TRANSACTION UNDO
+[2018.08.02-08.26.40:111][297]LogEditorTransaction: Undo Clicking on Actors
+[2018.08.02-08.26.45:347][763]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.02-08.26.45:355][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.02-08.26.45:355][763]PIE: New page: PIE session: Untitled_1 (Aug 2, 2018, 3:26:45 PM)
+[2018.08.02-08.26.45:355][763]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.02-08.26.45:358][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002068s)
+[2018.08.02-08.26.45:358][763]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.26.45:359][763]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2018.08.02-08.26.45:359][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003318s)
+[2018.08.02-08.26.45:371][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.26.45:371][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.26.45:372][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.26.45:372][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.26.45:372][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.26.45:372][763]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.26.45:372][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.26.45:372][763]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.26.45:373][763]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.26.45:439][763]LogInit: FAudioDevice initialized.
+[2018.08.02-08.26.45:501][763]LogLoad: Game class is 'GameModeBase'
+[2018.08.02-08.26.45:503][763]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.08.02-11.26.45
+[2018.08.02-08.26.45:503][763]LogWorld: Bringing up level for play took: 0.001165
+[2018.08.02-08.26.45:505][763]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.15
+[2018.08.02-08.26.46:348][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.26.46:428][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.02-08.26.46:473][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.26.46:490][853]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.08.02-08.26.52:268][493]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.08.02-08.26.58:592][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.27.04:750][919]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.02-08.27.04:755][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.02-08.27.04:756][919]PIE: New page: PIE session: Untitled_1 (Aug 2, 2018, 3:27:04 PM)
+[2018.08.02-08.27.04:756][919]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.02-08.27.04:758][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001813s)
+[2018.08.02-08.27.04:758][919]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.27.04:758][919]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2018.08.02-08.27.04:759][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002880s)
+[2018.08.02-08.27.04:776][919]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.27.04:777][919]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.27.04:777][919]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.27.04:777][919]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.27.04:777][919]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.27.04:777][919]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.27.04:777][919]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.27.04:777][919]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.27.04:778][919]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.27.04:842][919]LogInit: FAudioDevice initialized.
+[2018.08.02-08.27.04:939][919]LogLoad: Game class is 'GameModeBase'
+[2018.08.02-08.27.04:942][919]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.08.02-11.27.04
+[2018.08.02-08.27.04:944][919]LogWorld: Bringing up level for play took: 0.003462
+[2018.08.02-08.27.04:949][919]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.193
+[2018.08.02-08.27.05:783][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.27.05:814][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.02-08.27.05:856][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.27.05:896][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.08.02-08.27.12:349][664]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.02-08.27.12:354][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.02-08.27.12:354][664]PIE: New page: PIE session: Untitled_1 (Aug 2, 2018, 3:27:12 PM)
+[2018.08.02-08.27.12:355][664]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.02-08.27.12:357][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001994s)
+[2018.08.02-08.27.12:357][664]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.02-08.27.12:357][664]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2018.08.02-08.27.12:358][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003017s)
+[2018.08.02-08.27.12:370][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.02-08.27.12:370][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.02-08.27.12:370][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.02-08.27.12:370][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.02-08.27.12:371][664]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.02-08.27.12:371][664]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.02-08.27.12:371][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.02-08.27.12:371][664]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.02-08.27.12:371][664]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.02-08.27.12:438][664]LogInit: FAudioDevice initialized.
+[2018.08.02-08.27.12:501][664]LogLoad: Game class is 'GameModeBase'
+[2018.08.02-08.27.12:502][664]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.08.02-11.27.12
+[2018.08.02-08.27.12:502][664]LogWorld: Bringing up level for play took: 0.001047
+[2018.08.02-08.27.12:505][664]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.15
+[2018.08.02-08.27.19:219][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.27.19:260][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.02-08.27.19:299][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.02-08.27.19:323][451]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.08.02-08.27.24:305][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.33.28:143][840]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.33.28:144][840]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.33.28:144][840]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.33.28:394][861]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.33.37:118][846]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.33.37:118][846]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.33.37:122][846]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.33.37:188][846]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.33.37:250][846]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Untitled_1_Auto11187574908D5F86BC9B9736C6C334208.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.08.02-08.33.37:252][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.037
+[2018.08.02-08.33.37:252][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.037
+[2018.08.02-08.43.21:213][564]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.21:214][564]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.21:214][564]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.21:430][570]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.43.25:986][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.43.33:933][ 17]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.33:933][ 17]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.33:934][ 17]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.33:956][ 17]AssetReimport: New page: Outstanding source content changes 3:43:33 PM
+[2018.08.02-08.43.33:968][ 18]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx)
+[2018.08.02-08.43.34:109][ 18]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx
+[2018.08.02-08.43.34:184][ 18]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.02-08.43.34:204][ 18]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.34:206][ 18]LogLinux: Scale at X=755.000000, Y=165.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.34:304][ 18]LogLinux: Scale at X=965.000000, Y=557.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.43.34:495][ 18]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.43.34:953][ 18]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.44.24:116][ 18]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.08.02-08.44.25:122][ 18]LogStaticMesh: Building static mesh BasilikaSudak-plg...
+[2018.08.02-08.44.25:731][ 18]LogStaticMesh: Built static mesh [0.61s] /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.44.25:808][ 18]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.25:808][ 18]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.25:942][ 18]LogSlate: Took 0.000065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.02-08.44.26:079][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.44.26:143][ 19]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.44.26:144][ 19]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.26:144][ 19]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.26:164][ 19]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.26:451][ 19]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.44.26:945][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BasilikaSudak-plg" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset" SILENT=true
+[2018.08.02-08.44.27:010][ 19]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BasilikaSudak-plg120D28CA08D5F86D4CFDD07892ED2068.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset'
+[2018.08.02-08.44.27:238][ 20]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.27:239][ 20]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.27:239][ 20]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.44.27:802][ 21]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.44.30:051][162]AssetReimport: Importing new asset /Game/BasilikaSudak-plg.
+[2018.08.02-08.44.30:290][179]LogShaderCompilers: Display: Shaders left to compile 313
+[2018.08.02-08.44.31:217][240]LogShaderCompilers: Display: Shaders left to compile 303
+[2018.08.02-08.44.33:286][388]LogShaderCompilers: Display: Shaders left to compile 293
+[2018.08.02-08.44.36:554][581]LogShaderCompilers: Display: Shaders left to compile 283
+[2018.08.02-08.44.37:230][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.44.38:782][735]LogShaderCompilers: Display: Shaders left to compile 273
+[2018.08.02-08.44.41:472][942]LogShaderCompilers: Display: Shaders left to compile 263
+[2018.08.02-08.44.42:855][ 38]LogShaderCompilers: Display: Shaders left to compile 253
+[2018.08.02-08.44.47:221][363]LogShaderCompilers: Display: Shaders left to compile 243
+[2018.08.02-08.44.48:977][490]LogShaderCompilers: Display: Shaders left to compile 233
+[2018.08.02-08.44.49:894][559]LogShaderCompilers: Display: Shaders left to compile 223
+[2018.08.02-08.44.54:921][902]LogShaderCompilers: Display: Shaders left to compile 213
+[2018.08.02-08.44.55:652][965]LogShaderCompilers: Display: Shaders left to compile 203
+[2018.08.02-08.44.59:131][203]LogShaderCompilers: Display: Shaders left to compile 193
+[2018.08.02-08.45.01:166][363]LogShaderCompilers: Display: Shaders left to compile 183
+[2018.08.02-08.45.02:610][463]LogShaderCompilers: Display: Shaders left to compile 173
+[2018.08.02-08.45.05:226][647]LogShaderCompilers: Display: Shaders left to compile 163
+[2018.08.02-08.45.08:438][875]LogShaderCompilers: Display: Shaders left to compile 153
+[2018.08.02-08.45.08:746][895]LogShaderCompilers: Display: Shaders left to compile 143
+[2018.08.02-08.45.13:184][224]LogShaderCompilers: Display: Shaders left to compile 133
+[2018.08.02-08.45.15:340][381]LogShaderCompilers: Display: Shaders left to compile 123
+[2018.08.02-08.45.17:266][546]LogShaderCompilers: Display: Shaders left to compile 113
+[2018.08.02-08.45.21:149][784]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.08.02-08.45.23:422][941]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.08.02-08.45.24:000][985]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.08.02-08.45.28:625][288]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.08.02-08.45.29:546][350]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.08.02-08.45.31:158][458]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.08.02-08.45.35:854][770]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.08.02-08.45.36:522][818]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.08.02-08.45.38:674][976]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.08.02-08.45.43:380][303]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.02-08.45.44:297][361]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.08.02-08.45.48:861][727]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.45.48:862][727]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.45.48:862][727]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.45.49:106][745]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.45.57:846][678]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.45.57:846][678]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.45.57:853][678]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.45.57:921][678]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.45.57:963][678]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.014
+[2018.08.02-08.45.57:964][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sand_Bricks_1] ([1] browsable assets)...
+[2018.08.02-08.45.57:983][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Sand_Bricks_1.Sand_Bricks_1]
+[2018.08.02-08.45.57:984][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sand_Bricks_1]
+[2018.08.02-08.45.58:009][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Sand_Bricks_1_Auto2124EF8AC08D5F86D8340CAD2985A357B.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Sand_Bricks_1_Auto2.uasset'
+[2018.08.02-08.45.58:011][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sand_Bricks_2] ([1] browsable assets)...
+[2018.08.02-08.45.58:024][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Sand_Bricks_2.Sand_Bricks_2]
+[2018.08.02-08.45.58:025][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sand_Bricks_2]
+[2018.08.02-08.45.58:049][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Sand_Bricks_2_Auto21251D58E08D5F86D834711DA985AD630.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Sand_Bricks_2_Auto2.uasset'
+[2018.08.02-08.45.58:051][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sand_Bricks_3] ([1] browsable assets)...
+[2018.08.02-08.45.58:064][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Sand_Bricks_3.Sand_Bricks_3]
+[2018.08.02-08.45.58:064][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sand_Bricks_3]
+[2018.08.02-08.45.58:084][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Sand_Bricks_3_Auto212543EBC08D5F86D834D21C4985B7160.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Sand_Bricks_3_Auto2.uasset'
+[2018.08.02-08.45.58:085][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Roofing] ([1] browsable assets)...
+[2018.08.02-08.45.58:099][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Roofing.Roofing]
+[2018.08.02-08.45.58:099][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Roofing]
+[2018.08.02-08.45.58:099][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Roofing" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Roofing_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:118][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Roofing_Auto2125774DA08D5F86D83526864985BF86F.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Roofing_Auto2.uasset'
+[2018.08.02-08.45.58:120][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RoofingSimetrical] ([1] browsable assets)...
+[2018.08.02-08.45.58:132][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/RoofingSimetrical.RoofingSimetrical]
+[2018.08.02-08.45.58:132][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/RoofingSimetrical]
+[2018.08.02-08.45.58:150][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/RoofingSimetrical_Auto2125A61F208D5F86D83576184985C77BF.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/RoofingSimetrical_Auto2.uasset'
+[2018.08.02-08.45.58:151][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Wood_Solid] ([1] browsable assets)...
+[2018.08.02-08.45.58:164][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Wood_Solid.Wood_Solid]
+[2018.08.02-08.45.58:164][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wood_Solid]
+[2018.08.02-08.45.58:165][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wood_Solid" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Wood_Solid_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:184][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Wood_Solid_Auto2125DBEEE08D5F86D835C856A985CFB56.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Wood_Solid_Auto2.uasset'
+[2018.08.02-08.45.58:185][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Wood_Dark] ([1] browsable assets)...
+[2018.08.02-08.45.58:197][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Wood_Dark.Wood_Dark]
+[2018.08.02-08.45.58:197][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wood_Dark]
+[2018.08.02-08.45.58:197][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wood_Dark" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Wood_Dark_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:215][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Wood_Dark_Auto21260133308D5F86D83616800985D7864.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Wood_Dark_Auto2.uasset'
+[2018.08.02-08.45.58:217][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BigArc] ([1] browsable assets)...
+[2018.08.02-08.45.58:227][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BigArc.BigArc]
+[2018.08.02-08.45.58:227][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/BigArc]
+[2018.08.02-08.45.58:227][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BigArc" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/BigArc_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:245][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BigArc_Auto212633FA808D5F86D8365E7B8985DEB90.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/BigArc_Auto2.uasset'
+[2018.08.02-08.45.58:246][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Window_Frame_Arc] ([1] browsable assets)...
+[2018.08.02-08.45.58:255][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Window_Frame_Arc.Window_Frame_Arc]
+[2018.08.02-08.45.58:256][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Window_Frame_Arc]
+[2018.08.02-08.45.58:273][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Window_Frame_Arc_Auto21266009008D5F86D836A43C6985E5B2B.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Window_Frame_Arc_Auto2.uasset'
+[2018.08.02-08.45.58:274][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Window_Frame_x3] ([1] browsable assets)...
+[2018.08.02-08.45.58:284][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Window_Frame_x3.Window_Frame_x3]
+[2018.08.02-08.45.58:284][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Window_Frame_x3]
+[2018.08.02-08.45.58:302][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Window_Frame_x3_Auto21269B58208D5F86D836E9E08985ECA97.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Window_Frame_x3_Auto2.uasset'
+[2018.08.02-08.45.58:303][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Window_Frame_x4] ([1] browsable assets)...
+[2018.08.02-08.45.58:313][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Window_Frame_x4.Window_Frame_x4]
+[2018.08.02-08.45.58:313][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Window_Frame_x4]
+[2018.08.02-08.45.58:330][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Window_Frame_x4_Auto2126C4FB708D5F86D8372FF2A985F3AB5.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Window_Frame_x4_Auto2.uasset'
+[2018.08.02-08.45.58:331][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Marble] ([1] browsable assets)...
+[2018.08.02-08.45.58:341][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Marble.Marble]
+[2018.08.02-08.45.58:341][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Marble]
+[2018.08.02-08.45.58:341][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Marble" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Marble_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:359][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Marble_Auto2126F25D608D5F86D83775908985FAA17.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Marble_Auto2.uasset'
+[2018.08.02-08.45.58:360][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GoldYellow] ([1] browsable assets)...
+[2018.08.02-08.45.58:369][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GoldYellow.GoldYellow]
+[2018.08.02-08.45.58:369][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/GoldYellow]
+[2018.08.02-08.45.58:371][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GoldYellow" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/GoldYellow_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:389][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/GoldYellow_Auto21272991108D5F86D837BE15898601E1F.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/GoldYellow_Auto2.uasset'
+[2018.08.02-08.45.58:391][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Quartz_Sand] ([1] browsable assets)...
+[2018.08.02-08.45.58:400][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Quartz_Sand.Quartz_Sand]
+[2018.08.02-08.45.58:400][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Quartz_Sand]
+[2018.08.02-08.45.58:418][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Quartz_Sand_Auto212756D0308D5F86D83804E5098608F6A.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Quartz_Sand_Auto2.uasset'
+[2018.08.02-08.45.58:419][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dark_Sand] ([1] browsable assets)...
+[2018.08.02-08.45.58:428][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Dark_Sand.Dark_Sand]
+[2018.08.02-08.45.58:428][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dark_Sand]
+[2018.08.02-08.45.58:429][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dark_Sand" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Dark_Sand_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:446][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Dark_Sand_Auto21278C25E08D5F86D8384AE829860FF6F.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Dark_Sand_Auto2.uasset'
+[2018.08.02-08.45.58:447][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Column_Main] ([1] browsable assets)...
+[2018.08.02-08.45.58:457][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Column_Main.Column_Main]
+[2018.08.02-08.45.58:457][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Column_Main]
+[2018.08.02-08.45.58:475][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Column_Main_Auto2127BDD9608D5F86D838903D898616E5D.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Column_Main_Auto2.uasset'
+[2018.08.02-08.45.58:477][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Column_Basemant] ([1] browsable assets)...
+[2018.08.02-08.45.58:488][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Column_Basemant.Column_Basemant]
+[2018.08.02-08.45.58:488][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Column_Basemant]
+[2018.08.02-08.45.58:506][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Column_Basemant_Auto2127E33C208D5F86D838DB3A69861E659.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/Column_Basemant_Auto2.uasset'
+[2018.08.02-08.45.58:507][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FloorStone] ([1] browsable assets)...
+[2018.08.02-08.45.58:517][678]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FloorStone.FloorStone]
+[2018.08.02-08.45.58:517][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/FloorStone]
+[2018.08.02-08.45.58:518][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FloorStone" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/FloorStone_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.08.02-08.45.58:536][678]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/FloorStone_Auto212813B5A08D5F86D839240B098625AD8.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/FloorStone_Auto2.uasset'
+[2018.08.02-08.45.58:537][678]LogFileHelpers: Auto-saving content packages took 0.573
+[2018.08.02-08.46.01:862][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.46.15:720][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.46.15:960][861]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.15:961][861]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.15:971][861]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.16:071][861]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.46.16:174][861]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.46.16:964][861]LogTexture: Display: Building textures: SimplygonLogo (AutoDXT, 128X128)
+[2018.08.02-08.46.17:448][861]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.17:448][861]LogLinux: Scale at X=2880.000000, Y=508.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.17:715][861]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.46.18:073][862]LogRenderer: Reallocating scene render targets to support 1424x880 Format 10 NumSamples 1 (Frame:1).
+[2018.08.02-08.46.18:074][862]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.46.54:796][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.46.54:968][ 49]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.54:978][ 49]LogLinux: Scale at X=2880.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.55:006][ 49]LogLinux: Scale at X=2880.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.46.55:084][ 49]LogAssetEditorManager: Opening Asset editor for Material /Game/Sand_Bricks_1.Sand_Bricks_1
+[2018.08.02-08.46.55:103][ 49]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.46.55:104][ 49]LogMaterial: Display: Missing cached shader map for material Sand_Bricks_1, compiling. 
+[2018.08.02-08.46.55:357][ 49]LogMaterial: Display: Missing cached shader map for material Sand_Bricks_1, compiling. 
+[2018.08.02-08.46.55:377][ 49]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.02-08.46.55:377][ 49]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.02-08.46.55:377][ 49]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.02-08.46.55:449][ 49]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.08.02-08.46.55:544][ 49]LogSlate: Took 0.016436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.02-08.46.56:118][ 58]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.02-08.46.56:356][ 69]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.02-08.46.56:427][ 72]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.02-08.46.56:759][ 83]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.08.02-08.46.56:993][ 90]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.08.02-08.46.57:073][ 92]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.02-08.46.57:139][ 94]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.02-08.46.57:957][122]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.02-08.46.57:983][123]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.02-08.46.58:554][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.46.58:571][146]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.02-08.46.58:758][150]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.08.02-08.46.58:968][155]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.08.02-08.46.59:174][160]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.02-08.46.59:528][174]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.08.02-08.47.00:265][193]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.08.02-08.47.00:346][196]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.08.02-08.47.00:561][203]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.02-08.47.01:212][229]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.02-08.47.01:347][233]MaterialEditorStats: Base pass shader: 0 instructions
+[2018.08.02-08.47.01:347][233]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 0 instructions
+[2018.08.02-08.47.01:347][233]MaterialEditorStats: Base pass vertex shader: 0 instructions
+[2018.08.02-08.47.01:348][233]MaterialEditorStats: Texture samplers: 13/16
+[2018.08.02-08.47.17:116][120]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.47.17:117][120]LogLinux: Scale at X=2875.000000, Y=523.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.47.17:145][120]LogLinux: Scale at X=2880.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.47.17:316][120]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.47.19:096][120]LogSlate: Window 'Message' being destroyed
+[2018.08.02-08.47.19:128][120]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.47.19:128][120]LogSlate: Window 'Sand_Bricks_1*' being destroyed
+[2018.08.02-08.47.19:146][120]LogSlate: Window 'Sand_Bricks_1*' being destroyed
+[2018.08.02-08.47.40:173][244]LogLinux: Scale at X=150.000000, Y=199.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.47.40:197][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.47.40:212][246]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.47.43:067][381]LogLinux: Scale at X=331.000000, Y=202.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.47.43:068][381]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.47.44:020][381]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.47.44:083][382]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.48.29:851][913]LogLinux: Scale at X=331.000000, Y=202.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.48.29:852][913]LogSlate: Window 'Project Settings' being destroyed
+[2018.08.02-08.48.29:880][913]LogSlate: Window 'Project Settings' being destroyed
+[2018.08.02-08.51.34:085][ 17]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.34:086][ 17]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.34:086][ 17]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.34:406][ 20]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.51.35:760][108]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.51.37:185][257]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.37:185][257]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.37:186][257]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.37:262][257]AssetReimport: New page: Outstanding source content changes 3:51:37 PM
+[2018.08.02-08.51.37:309][258]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx]
+[2018.08.02-08.51.37:319][258]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx
+[2018.08.02-08.51.37:333][258]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.02-08.51.37:450][258]LogStaticMesh: Building static mesh BasilikaSudak-plg...
+[2018.08.02-08.51.37:753][258]LogStaticMesh: Built static mesh [0.30s] /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.51.37:819][258]LogEditorFactories: -- imported successfully
+[2018.08.02-08.51.37:820][258]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.37:821][258]LogLinux: Scale at X=605.000000, Y=198.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.37:895][259]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.51.37:895][259]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.37:899][259]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.37:900][259]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.38:012][259]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.51.38:042][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BasilikaSudak-plg" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset" SILENT=true
+[2018.08.02-08.51.38:062][259]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BasilikaSudak-plg130FC0EB08D5F86E4DF25570AC9F1DD5.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset'
+[2018.08.02-08.51.41:124][385]AssetReimport: Reimported asset BasilikaSudak-plg from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx.
+[2018.08.02-08.51.41:506][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.51.41:693][407]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.41:693][407]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.41:703][407]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.41:775][407]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.51.41:838][407]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.51.42:048][407]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.42:048][407]LogLinux: Scale at X=2880.000000, Y=508.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.42:197][407]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.51.42:577][408]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.51.59:176][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.51.59:295][441]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.51.59:295][441]LogSlate: Window 'BasilikaSudak-plg' being destroyed
+[2018.08.02-08.51.59:314][441]LogSlate: Window 'BasilikaSudak-plg' being destroyed
+[2018.08.02-08.52.16:262][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.52.17:407][373]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.17:407][373]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.17:407][373]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.17:784][382]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.52.28:745][485]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.28:746][485]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.28:746][485]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.28:768][485]AssetReimport: New page: Outstanding source content changes 3:52:28 PM
+[2018.08.02-08.52.28:781][486]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx]
+[2018.08.02-08.52.28:791][486]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx
+[2018.08.02-08.52.28:806][486]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.02-08.52.28:916][486]LogStaticMesh: Building static mesh BasilikaSudak-plg...
+[2018.08.02-08.52.29:222][486]LogStaticMesh: Built static mesh [0.31s] /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.52.29:317][486]LogEditorFactories: -- imported successfully
+[2018.08.02-08.52.29:319][486]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.29:319][486]LogLinux: Scale at X=605.000000, Y=198.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.29:399][487]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.29:399][487]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.52.29:400][487]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.29:407][487]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.29:504][487]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.52.29:558][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BasilikaSudak-plg" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset" SILENT=true
+[2018.08.02-08.52.29:578][487]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BasilikaSudak-plg132F5E7108D5F86E6CA6D3D8AFB128F5.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset'
+[2018.08.02-08.52.32:614][668]AssetReimport: Reimported asset BasilikaSudak-plg from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx.
+[2018.08.02-08.52.34:364][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.52.34:558][765]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.34:558][765]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.34:569][765]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.34:659][765]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.52.34:691][765]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.52.34:909][765]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.34:910][765]LogLinux: Scale at X=2880.000000, Y=508.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.35:079][765]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.52.35:472][766]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.52.40:431][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.52.40:568][ 64]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.52.40:568][ 64]LogSlate: Window 'BasilikaSudak-plg' being destroyed
+[2018.08.02-08.52.40:592][ 64]LogSlate: Window 'BasilikaSudak-plg' being destroyed
+[2018.08.02-08.54.40:342][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.54.42:179][359]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.42:179][359]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.42:180][359]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.42:270][359]AssetReimport: New page: Outstanding source content changes 3:54:42 PM
+[2018.08.02-08.54.42:287][360]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx]
+[2018.08.02-08.54.42:300][360]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx
+[2018.08.02-08.54.42:315][360]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.02-08.54.42:420][360]LogStaticMesh: Building static mesh BasilikaSudak-plg...
+[2018.08.02-08.54.42:717][360]LogStaticMesh: Built static mesh [0.30s] /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.54.42:847][360]LogEditorFactories: -- imported successfully
+[2018.08.02-08.54.42:849][360]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.42:849][360]LogLinux: Scale at X=605.000000, Y=198.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.42:920][361]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.42:922][361]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.42:942][361]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.54.42:947][361]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.43:061][361]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.54.43:104][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BasilikaSudak-plg" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset" SILENT=true
+[2018.08.02-08.54.43:123][361]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BasilikaSudak-plg134FECC008D5F86EBC406A3AB7A6E784.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset'
+[2018.08.02-08.54.46:178][514]AssetReimport: Reimported asset BasilikaSudak-plg from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx.
+[2018.08.02-08.54.49:318][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.54.51:101][823]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.51:102][823]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.51:105][823]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.51:190][823]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.54.51:208][823]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.54.51:371][823]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.51:371][823]LogLinux: Scale at X=2880.000000, Y=508.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.51:556][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.02-08.54.51:907][824]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.54.58:376][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.54.58:476][212]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.54.58:477][212]LogSlate: Window 'BasilikaSudak-plg' being destroyed
+[2018.08.02-08.54.58:513][212]LogSlate: Window 'BasilikaSudak-plg' being destroyed
+[2018.08.02-08.55.00:111][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.02-08.55.02:399][515]LogLinux: Scale at X=905.000000, Y=617.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.02:578][517]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.03:111][538]LogLinux: Scale at X=1145.000000, Y=638.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.03:149][539]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.03:528][553]LogLinux: Scale at X=1114.000000, Y=697.500000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.03:714][554]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.05:354][642]LogLinux: Scale at X=1114.000000, Y=697.500000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.05:736][643]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.08:523][781]LogLinux: Scale at X=133.000000, Y=514.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.08:683][783]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.09:801][832]LogLinux: Scale at X=372.500000, Y=614.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.09:901][833]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.10:976][869]LogLinux: Scale at X=342.000000, Y=661.500000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.11:036][870]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.13:572][  4]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx]
+[2018.08.02-08.55.13:596][  4]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.13:597][  4]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.13:609][  4]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.13:796][  4]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.13:853][  4]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx
+[2018.08.02-08.55.13:869][  4]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.02-08.55.13:944][  4]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.13:945][  4]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.13:946][  4]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.14:124][  4]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.14:208][  4]LogStaticMesh: Building static mesh BasilikaSudak-plg...
+[2018.08.02-08.55.14:505][  4]LogStaticMesh: Built static mesh [0.30s] /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.55.14:532][  4]LogStaticMesh: Warning: BasilikaSudak-plg has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.08.02-08.55.14:532][  4]LogStaticMesh: Warning: BasilikaSudak-plg has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2018.08.02-08.55.14:532][  4]LogStaticMesh: Warning: BasilikaSudak-plg has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.08.02-08.55.14:714][  4]LogEditorFactories: -- imported successfully
+[2018.08.02-08.55.14:715][  4]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.14:715][  4]LogLinux: Scale at X=605.000000, Y=198.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.14:718][  4]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.08.02-08.55.14:719][  4]FBXImport: Warning: BasilikaSudak-plg has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.08.02-08.55.14:719][  4]FBXImport: Warning: BasilikaSudak-plg has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2018.08.02-08.55.14:720][  4]FBXImport: Warning: BasilikaSudak-plg has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.08.02-08.55.14:742][  4]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.14:742][  4]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.14:743][  4]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.14:834][  5]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.55.51:454][913]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.51:454][913]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.51:455][913]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.55.51:727][917]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.56.00:453][712]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.56.00:453][712]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.56.00:462][712]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.56.00:623][712]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.56.00:684][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.031
+[2018.08.02-08.56.00:685][712]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BasilikaSudak-plg] ([1] browsable assets)...
+[2018.08.02-08.56.00:701][712]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BasilikaSudak-plg.BasilikaSudak-plg]
+[2018.08.02-08.56.00:702][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/BasilikaSudak-plg]
+[2018.08.02-08.56.00:721][712]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BasilikaSudak-plg_Auto313747CC008D5F86EEA80FC0CBC46F419.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/BasilikaSudak-plg_Auto3.uasset'
+[2018.08.02-08.56.00:723][712]LogFileHelpers: Auto-saving content packages took 0.037
+[2018.08.02-08.58.24:795][683]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.24:796][683]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.24:796][683]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.24:887][683]AssetReimport: New page: Outstanding source content changes 3:58:24 PM
+[2018.08.02-08.58.24:910][684]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx]
+[2018.08.02-08.58.25:092][684]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx
+[2018.08.02-08.58.25:251][684]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.02-08.58.25:349][684]LogStaticMesh: Building static mesh BasilikaSudak-plg...
+[2018.08.02-08.58.25:649][684]LogStaticMesh: Built static mesh [0.30s] /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.58.25:685][684]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.25:686][684]LogLinux: Scale at X=605.000000, Y=338.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.25:687][684]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.25:823][684]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.58.25:841][684]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.58.39:425][684]LogLinux: Scale at X=1092.500000, Y=664.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.39:552][684]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.58.53:928][684]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2018.08.02-08.58.54:026][684]LogEditorFactories: -- imported successfully
+[2018.08.02-08.58.54:053][684]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.54:058][684]LogLinux: Scale at X=605.000000, Y=198.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.58.57:131][931]AssetReimport: Reimported asset BasilikaSudak-plg from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx.
+[2018.08.02-08.59.03:822][638]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.03:823][638]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.03:823][638]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.03:883][638]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.04:094][640]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.59.05:491][747]LogSlate: Window 'Message Log' being destroyed
+[2018.08.02-08.59.16:580][682]LogLinux: Scale at X=130.000000, Y=535.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.16:727][684]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.59.18:421][783]LogEditorFactories: Performing atomic reimport of [/media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx]
+[2018.08.02-08.59.18:427][783]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.18:429][783]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.18:433][783]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.18:488][783]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.59.18:747][783]LogFbx: Loading FBX Scene from /media/scad/WD1003FZEX_1TB/!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.fbx
+[2018.08.02-08.59.18:908][783]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.02-08.59.18:981][783]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.18:981][783]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.18:985][783]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.19:102][783]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-08.59.19:139][783]LogStaticMesh: Building static mesh BasilikaSudak-plg...
+[2018.08.02-08.59.19:434][783]LogStaticMesh: Built static mesh [0.29s] /Game/BasilikaSudak-plg.BasilikaSudak-plg
+[2018.08.02-08.59.19:452][783]LogStaticMesh: Warning: BasilikaSudak-plg has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.08.02-08.59.19:453][783]LogStaticMesh: Warning: BasilikaSudak-plg has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2018.08.02-08.59.19:453][783]LogStaticMesh: Warning: BasilikaSudak-plg has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.08.02-08.59.19:491][783]LogEditorFactories: -- imported successfully
+[2018.08.02-08.59.19:495][783]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.19:496][783]LogLinux: Scale at X=605.000000, Y=198.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.19:499][783]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.08.02-08.59.19:500][783]FBXImport: Warning: BasilikaSudak-plg has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.08.02-08.59.19:500][783]FBXImport: Warning: BasilikaSudak-plg has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2018.08.02-08.59.19:500][783]FBXImport: Warning: BasilikaSudak-plg has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.08.02-08.59.19:584][783]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.19:584][783]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.19:585][783]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-08.59.19:720][784]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-09.05.51:619][726]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.05.51:620][726]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.05.51:620][726]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.05.51:866][744]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-09.06.00:596][747]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.06.00:597][747]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.06.00:598][747]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.06.00:938][747]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-09.06.00:973][747]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.034
+[2018.08.02-09.06.00:975][747]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BasilikaSudak-plg] ([1] browsable assets)...
+[2018.08.02-09.06.00:999][747]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BasilikaSudak-plg.BasilikaSudak-plg]
+[2018.08.02-09.06.00:999][747]OBJ SavePackage: Finished generating thumbnails for package [/Game/BasilikaSudak-plg]
+[2018.08.02-09.06.01:199][747]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BasilikaSudak-plg_Auto413A0F74F08D5F870505A688CE00FD7FD.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Autosaves/Game/BasilikaSudak-plg_Auto4.uasset'
+[2018.08.02-09.06.01:204][747]LogFileHelpers: Auto-saving content packages took 0.230
+[2018.08.02-09.17.14:256][ 11]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.14:257][ 11]LogLinux: Scale at X=655.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.14:261][ 11]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.14:448][ 11]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-09.17.17:033][ 11]LogSlate: Window 'Save Content' being destroyed
+[2018.08.02-09.17.17:097][ 11]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.17:097][ 11]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.17:107][ 11]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.17:234][ 11]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-09.17.17:281][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BasilikaSudak-plg" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset" SILENT=true
+[2018.08.02-09.17.17:287][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BasilikaSudak-plg13A22CEB08D5F871E3686C68085E0793.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BasilikaSudak-plg.uasset'
+[2018.08.02-09.17.17:291][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BigArc" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BigArc.uasset" SILENT=true
+[2018.08.02-09.17.17:293][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/BigArc13A4FADD08D5F871E369C428085E29F2.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/BigArc.uasset'
+[2018.08.02-09.17.17:297][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Column_Basemant" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Column_Basemant.uasset" SILENT=true
+[2018.08.02-09.17.17:300][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Column_Basemant13A6B4C608D5F871E36AC4D6085E439E.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Column_Basemant.uasset'
+[2018.08.02-09.17.17:304][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Column_Main" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Column_Main.uasset" SILENT=true
+[2018.08.02-09.17.17:306][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Column_Main13A8A3E908D5F871E36BB878085E5BFB.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Column_Main.uasset'
+[2018.08.02-09.17.17:310][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dark_Sand" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Dark_Sand.uasset" SILENT=true
+[2018.08.02-09.17.17:312][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Dark_Sand13AA939608D5F871E36CB16A085E74E0.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Dark_Sand.uasset'
+[2018.08.02-09.17.17:317][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FloorStone" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/FloorStone.uasset" SILENT=true
+[2018.08.02-09.17.17:319][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/FloorStone13AC096608D5F871E36DB5F6085E8EED.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/FloorStone.uasset'
+[2018.08.02-09.17.17:367][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GoldYellow" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/GoldYellow.uasset" SILENT=true
+[2018.08.02-09.17.17:375][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/GoldYellow13AEB3BC08D5F871E37599EC085F58EE.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/GoldYellow.uasset'
+[2018.08.02-09.17.17:392][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Marble" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Marble.uasset" SILENT=true
+[2018.08.02-09.17.17:402][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Marble13B0CCB708D5F871E3799736085FBF10.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Marble.uasset'
+[2018.08.02-09.17.17:422][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Quartz_Sand" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Quartz_Sand.uasset" SILENT=true
+[2018.08.02-09.17.17:431][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Quartz_Sand13B2B4CE08D5F871E37DF83008602F29.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Quartz_Sand.uasset'
+[2018.08.02-09.17.17:443][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Roofing" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Roofing.uasset" SILENT=true
+[2018.08.02-09.17.17:448][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Roofing13B48FE208D5F871E381318A086081B1.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Roofing.uasset'
+[2018.08.02-09.17.17:456][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoofingSimetrical" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/RoofingSimetrical.uasset" SILENT=true
+[2018.08.02-09.17.17:460][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/RoofingSimetrical13B6527408D5F871E3830F5A0860B178.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/RoofingSimetrical.uasset'
+[2018.08.02-09.17.17:467][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sand_Bricks_1" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Sand_Bricks_1.uasset" SILENT=true
+[2018.08.02-09.17.17:473][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Sand_Bricks_113B888ED08D5F871E384CB2E0860DDDA.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Sand_Bricks_1.uasset'
+[2018.08.02-09.17.17:480][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sand_Bricks_2" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Sand_Bricks_2.uasset" SILENT=true
+[2018.08.02-09.17.17:485][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Sand_Bricks_213BAD46B08D5F871E386B09208610E64.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Sand_Bricks_2.uasset'
+[2018.08.02-09.17.17:497][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sand_Bricks_3" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Sand_Bricks_3.uasset" SILENT=true
+[2018.08.02-09.17.17:503][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Sand_Bricks_313BC535E08D5F871E3896A0808615423.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Sand_Bricks_3.uasset'
+[2018.08.02-09.17.17:511][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Window_Frame_Arc" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Window_Frame_Arc.uasset" SILENT=true
+[2018.08.02-09.17.17:515][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Window_Frame_Arc13BEBD9A08D5F871E38B6CCC0861879D.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Window_Frame_Arc.uasset'
+[2018.08.02-09.17.17:520][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Window_Frame_x3" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Window_Frame_x3.uasset" SILENT=true
+[2018.08.02-09.17.17:524][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Window_Frame_x313C0540908D5F871E38CDFA80861ACB2.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Window_Frame_x3.uasset'
+[2018.08.02-09.17.17:529][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Window_Frame_x4" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Window_Frame_x4.uasset" SILENT=true
+[2018.08.02-09.17.17:531][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Window_Frame_x413C2DF2E08D5F871E38E14FE0861CBA1.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Window_Frame_x4.uasset'
+[2018.08.02-09.17.17:536][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wood_Dark" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Wood_Dark.uasset" SILENT=true
+[2018.08.02-09.17.17:538][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Wood_Dark13C4A5D908D5F871E38F28440861E728.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Wood_Dark.uasset'
+[2018.08.02-09.17.17:543][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wood_Solid" FILE="../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Wood_Solid.uasset" SILENT=true
+[2018.08.02-09.17.17:546][ 11]LogSavePackage: Moving '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Saved/Wood_Solid13C6533308D5F871E39046FC086203D4.tmp' to '../../../../../!Works/[3D Modeling]/BasilcaSudak/Unreal4/BasilicaSudak_UE4/Content/Wood_Solid.uasset'
+[2018.08.02-09.17.17:618][ 11]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.17:620][ 11]LogLinux: Scale at X=379.000000, Y=199.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.17:624][ 11]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=102.238991 (horz scale: 1.064989), VDPI=102.358208 (vert scale: 1.066231))
+[2018.08.02-09.17.17:802][ 11]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.02-09.17.23:909][ 11]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.587 s
+[2018.08.02-09.17.23:910][ 11]LogOutputDevice: Error: === Handled ensure: ===
+[2018.08.02-09.17.23:910][ 11]LogOutputDevice: Error: 
+[2018.08.02-09.17.23:910][ 11]LogOutputDevice: Error: Ensure condition failed: !InputKeys.Contains(Key) [File:/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp] [Line: 717]
+[2018.08.02-09.17.23:912][ 11]LogOutputDevice: Error: Adding duplicate key 'UnknownCharCode_1100'
+[2018.08.02-09.17.23:912][ 11]LogOutputDevice: Error: Stack: 
+[2018.08.02-09.17.23:913][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b6947e32f libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, wchar_t const*, ...) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:439]
+[2018.08.02-09.17.23:914][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b63e45e73 libUE4Editor-InputCore.so!EKeys::AddKey(FKeyDetails const&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h:94]
+[2018.08.02-09.17.23:916][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b63e47d63 libUE4Editor-InputCore.so!FInputKeyManager::GetKeyFromCodes(unsigned int, unsigned int) const [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1178]
+[2018.08.02-09.17.23:918][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b624b5052 libUE4Editor-Slate.so!FSlateApplication::OnKeyUp(int, unsigned int, bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5064]
+[2018.08.02-09.17.23:920][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62cbef90 libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:270]
+[2018.08.02-09.17.23:922][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62cbe568 libUE4Editor-ApplicationCore.so!FLinuxApplication::AddPendingEvent(SDL_Event) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:194]
+[2018.08.02-09.17.23:923][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62cbe2af libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:424]
+[2018.08.02-09.17.23:925][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b624969e7 libUE4Editor-Slate.so!FSlateApplication::TickPlatform(float) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:1705]
+[2018.08.02-09.17.23:927][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b6249db69 libUE4Editor-Slate.so!FSlateApplication::AddModalWindow(TSharedRef<SWindow, (ESPMode)0>, TSharedPtr<SWidget const, (ESPMode)0>, bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2198]
+[2018.08.02-09.17.23:928][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1a267496c6 libUE4Editor-ContentBrowser.so!FContentBrowserSingleton::SharedCreateAssetDialogWindow(TSharedRef<SAssetDialog, (ESPMode)0> const&, FSharedAssetDialogConfig const&, bool) const [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserSingleton.cpp:442]
+[2018.08.02-09.17.23:930][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1a2674aa21 libUE4Editor-ContentBrowser.so!FContentBrowserSingleton::CreateModalSaveAssetDialog(FSaveAssetDialogConfig const&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserSingleton.cpp:170]
+[2018.08.02-09.17.23:931][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5f939259 libUE4Editor-UnrealEd.so!OpenSaveAsDialog(UClass*, FString const&, FString const&, FString&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/FileHelpers.cpp:795]
+[2018.08.02-09.17.23:932][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5f956812 libUE4Editor-UnrealEd.so!InternalSavePackage(UPackage*, bool, bool&, FOutputDevice&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/FileHelpers.cpp:2767]
+[2018.08.02-09.17.23:933][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5f9549ff libUE4Editor-UnrealEd.so!InternalPromptForCheckoutAndSave(TArray<UPackage*, FDefaultAllocator> const&, bool, TArray<UPackage*, FDefaultAllocator>&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/FileHelpers.cpp:3364]
+[2018.08.02-09.17.23:934][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5f8c65d9 libUE4Editor-UnrealEd.so!FEditorFileUtils::PromptForCheckoutAndSave(TArray<UPackage*, FDefaultAllocator> const&, bool, bool, TArray<UPackage*, FDefaultAllocator>*, bool, bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/FileHelpers.cpp:3629]
+[2018.08.02-09.17.23:935][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5f9532e9 libUE4Editor-UnrealEd.so!<name omitted> [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/FileHelpers.cpp:3088]
+[2018.08.02-09.17.23:936][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5f9528ce libUE4Editor-UnrealEd.so!FEditorFileUtils::SaveDirtyPackages(bool, bool, bool, bool, bool, bool, bool*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/FileHelpers.cpp:3230]
+[2018.08.02-09.17.23:937][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1a262ba228 libUE4Editor-MainFrame.so!FMainFrameHandler::CanCloseEditor() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/MainFrame/Private/Frame/MainFrameHandler.h:145]
+[2018.08.02-09.17.23:937][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1a262bc969 libUE4Editor-MainFrame.so!FMainFrameHandler::CloseRootWindowOverride(TSharedRef<SWindow, (ESPMode)0> const&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/MainFrame/Private/Frame/MainFrameHandler.h:164]
+[2018.08.02-09.17.23:938][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b61e1e43b libUE4Editor-SlateCore.so!SWindow::RequestDestroyWindow() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:537]
+[2018.08.02-09.17.23:938][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62517292 libUE4Editor-Slate.so!SWindowTitleBar::CloseButton_OnClicked() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Application/SWindowTitleBar.h:435]
+[2018.08.02-09.17.23:939][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62518293 libUE4Editor-Slate.so!TBaseSPMethodDelegateInstance<false, SWindowTitleBar, (ESPMode)0, FReply ()>::Execute() const [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+[2018.08.02-09.17.23:940][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62663bf4 libUE4Editor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:537]
+[2018.08.02-09.17.23:940][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b624ba0e0 libUE4Editor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath&, FPointerEvent&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5483]
+[2018.08.02-09.17.23:941][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62479d56 libUE4Editor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5979]
+[2018.08.02-09.17.23:942][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b624c0a84 libUE4Editor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, FVector2D) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5959]
+[2018.08.02-09.17.23:942][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62cbed72 libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:356]
+[2018.08.02-09.17.23:943][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62cbe568 libUE4Editor-ApplicationCore.so!FLinuxApplication::AddPendingEvent(SDL_Event) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:194]
+[2018.08.02-09.17.23:943][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b62cbe2af libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:424]
+[2018.08.02-09.17.23:944][ 11]LogOutputDevice: Error: [Callstack] 0x000000000023b4a8 UE4Editor!FEngineLoop::Tick() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3417]
+[2018.08.02-09.17.23:944][ 11]LogOutputDevice: Error: [Callstack] 0x0000000000243ed3 UE4Editor!GuardedMain(wchar_t const*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:62]
+[2018.08.02-09.17.23:945][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5e310fca libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:241]
+[2018.08.02-09.17.23:945][ 11]LogOutputDevice: Error: [Callstack] 0x00007f1b5dd36b97 libc.so.6!__libc_start_main(+0xe6)
+[2018.08.02-09.17.23:946][ 11]LogOutputDevice: Error: [Callstack] 0x0000000000230029 UE4Editor!_start()
+[2018.08.02-09.17.23:946][ 11]LogOutputDevice: Error: 
+[2018.08.02-09.17.23:953][ 11]LogStats:                SubmitErrorReport -  0.000 s

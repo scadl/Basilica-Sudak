@@ -1,0 +1,35 @@
+Generating report for minidump
+
+Application version 4.20.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-34-generic (network name: MicrolabHS)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:391]
+libUE4Editor-ApplicationCore.so!FUnixErrorOutputDevice::Serialize(wchar_t const*, ELogVerbosity::Type, FName const&) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Unix/UnixErrorOutputDevice.cpp:57]
+libUE4Editor-Core.so!FOutputDevice::LogfImpl(wchar_t const*, ...) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:70]
+libUE4Editor-Core.so!FDebug::AssertFailed(char const*, char const*, int, wchar_t const*, ...) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/OutputDevice.h:216]
+libUE4Editor-UnrealEd.so!FLightmassProcessor::ImportVolumetricLightmap() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/Lightmass/ImportVolumetricLightmap.cpp:956]
+libUE4Editor-UnrealEd.so!FLightmassProcessor::CompleteRun() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/Lightmass/Lightmass.cpp:3259]
+libUE4Editor-UnrealEd.so!FStaticLightingSystem::FinishLightmassProcess() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/StaticLightingSystem/StaticLightingSystem.cpp:2104]
+libUE4Editor-UnrealEd.so!FStaticLightingManager::ProcessLightingData() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/StaticLightingSystem/StaticLightingSystem.cpp:166]
+libUE4Editor-UnrealEd.so!FStaticLightingSystem::UpdateLightingBuild() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:0]
+libUE4Editor-UnrealEd.so!FStaticLightingManager::UpdateBuildLighting() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/StaticLightingSystem/StaticLightingSystem.cpp:329]
+libUE4Editor-UnrealEd.so!UEditorEngine::UpdateBuildLighting() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/StaticLightingSystem/StaticLightingSystem.cpp:2386]
+UE4Editor!FEngineLoop::Tick() [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3489]
+UE4Editor!GuardedMain(wchar_t const*) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:62]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/media/scad/WD1003FZEX_1TB/Epic_Games/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:245]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
