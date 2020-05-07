@@ -1,2 +1,0 @@
-set solib-search-path ./obj/local/armeabi-v7a
-directory /media/scad/WD1003FZEX_1TB/Epic_Games/NVPACK/android-ndk-r12b/platforms/android-9/arch-arm/usr/include jni /media/scad/WD1003FZEX_1TB/Epic_Games/NVPACK/android-ndk-r12b/sources/cxx-stl/system

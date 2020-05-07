@@ -72,13 +72,18 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
+*/DerivedDataCache/
 
 #Binaries & Other
 *LinuxNoEditor/
 *WindowsNoEditor/
 *Standalone/
 *Screenshots/
-SKP/
 *.kra
-BasilikaSudak-BGE.blend
+*.apk
+*.obb
+*.uexp
+*.apk
+*.pak
+SKP/
+BGE/
