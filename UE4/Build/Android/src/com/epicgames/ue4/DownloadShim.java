@@ -1,10 +1,10 @@
 package com.epicgames.ue4;
 
-import com.YourCompany.BasilicaSudak_UE4.OBBDownloaderService;
-import com.YourCompany.BasilicaSudak_UE4.DownloaderActivity;
+import net.scadsdnd.BasilicaSudak_UE4.OBBDownloaderService;
+import net.scadsdnd.BasilicaSudak_UE4.DownloaderActivity;
 import android.app.Activity;
 import com.google.android.vending.expansion.downloader.Helpers;
-import com.YourCompany.BasilicaSudak_UE4.OBBData;
+import net.scadsdnd.BasilicaSudak_UE4.OBBData;
 
 
 public class DownloadShim
